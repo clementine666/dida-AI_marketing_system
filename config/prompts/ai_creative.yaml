@@ -1,0 +1,33 @@
+key: ai_creative
+title: AI 创意活动 · 独立 Prompt
+owner: 永如
+status: placeholder
+description: 上传 OTA/竞对资讯后，AI 按此 Prompt 生成创意活动方案并送入评审池（唯一提示词）
+content: ''
+notes: '【定位】Tab② 唯一 Prompt。Tab③ 上传资讯 → 本 Prompt 驱动 LLM 生成 → 评审池。
+
+
+  【输入】行业报告、OTA 趋势、竞对活动、公众号文章等（Tab③ 上传）
+
+
+  【输出要求】每条创意包含：
+
+  · 活动名称、目标目的地、上线时间、预订/入住窗口
+
+  · 客户画像 + 酒店画像（不出具体 ID）
+
+  · 优先级 P0/P1/P2、预期 TTV/GP、决策理由
+
+  · 严格 JSON 格式，12–16 条覆盖规划年 1–12 月
+
+
+  【经营原则】B2B 视角；旅行社与 TMC 分条；亚洲提前≥3月、非亚洲≥6月；
+
+  GP 按 TTV×1%–2%；禁止编造数据。
+
+
+  永如在此填写完整 Prompt 正文（可含 JSON schema 示例）。
+
+  '
+updated_at: 2026-09-30 11:32
+updated_by: admin-ui

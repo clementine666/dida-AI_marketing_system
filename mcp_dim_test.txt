@@ -1,0 +1,35 @@
+﻿CAT 酒店信息
+  dida_hotel_big_region_name | Dida酒店-所属大区
+  dida_hotel_region_name | Dida酒店-所在地区
+  dida_hotel_id | Dida酒店-ID，（含历史，历史唯一）
+  dida_main_hotel_id | Dida酒店-ID-映射到最新
+  dida_hotel_name | Dida酒店-酒店名称-最新
+  dida_hotel_property_category | Dida酒店-酒店类型
+  dida_hotel_chain_name | Dida酒店-酒店集团
+  dida_hotel_brand_name | Dida酒店-品牌
+  dida_hotel_status | Dida酒店-状态
+  dida_hotel_star_rating | Dida酒店-星级
+  dida_hotel_destination_id | Dida酒店-目的地-ID
+  dida_hotel_destination_name | Dida酒店-目的地
+  dida_hotel_destination_name_cn | Dida酒店-目的地-中文
+  dida_hotel_country_code | Dida酒店-所在国家-编码
+  dida_hotel_country_name | Dida酒店-所在国家
+CAT RatePlan信息
+  dida_room_type_id | DIda房型ID
+  dida_room_type_name_en | dida房型名称
+  dida_bed_type_id | dida-床型-ID
+  dida_bed_type_name | dida-床型
+CAT 未分类
+  dida_hotel_chain_id | Dida酒店-酒店集团ID
+  dida_hotel_brand_id | Dida酒店-品牌ID
+  dida_hotel_country_name_cn | Dida酒店-所在国家-中文
+  dida_hotel_city_code | Dida酒店-所在城市-编码
+  dida_hotel_city_name_cn | Dida酒店-所在城市-中文
+SUCCESS dim dida_hotel_country_name Error executing tool analyse_query: Server error '500 Internal Server Error' for url 'https://data-api.didaadmin.com/data/manage/analyse/query'
+For more information check: https://developer.mozilla.or
+SUCCESS dim hotel_country_name Error executing tool analyse_query: Server error '500 Internal Server Error' for url 'https://data-api.didaadmin.com/data/manage/analyse/query'
+For more information check: https://developer.mozilla.or
+SUCCESS dim country_name Error executing tool analyse_query: Server error '500 Internal Server Error' for url 'https://data-api.didaadmin.com/data/manage/analyse/query'
+For more information check: https://developer.mozilla.or
+SUCCESS dim channel_country_name Error executing tool analyse_query: Server error '500 Internal Server Error' for url 'https://data-api.didaadmin.com/data/manage/analyse/query'
+For more information check: https://developer.mozilla.or

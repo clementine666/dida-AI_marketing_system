@@ -1,0 +1,40 @@
+{
+  "source": "simulate",
+  "description": "虚拟 MCP 返回 · 模拟 checkout/booking/P75 三份结构化数据",
+  "data_window": { "start": "2026-08", "end": "2027-07" },
+  "checkout_monthly": [
+    { "month": "2027-02", "country": "澳大利亚", "orders": 820, "ttv": 12100000 },
+    { "month": "2027-02", "country": "新西兰", "orders": 310, "ttv": 7300000 },
+    { "month": "2027-07", "country": "日本", "orders": 1450, "ttv": 28500000 },
+    { "month": "2027-08", "country": "日本", "orders": 1380, "ttv": 26800000 },
+    { "month": "2027-02", "country": "泰国", "orders": 920, "ttv": 9800000 },
+    { "month": "2027-02", "country": "新加坡", "orders": 680, "ttv": 11200000 },
+    { "month": "2027-02", "country": "马来西亚", "orders": 540, "ttv": 7600000 },
+    { "month": "2027-07", "country": "法国", "orders": 760, "ttv": 18900000 },
+    { "month": "2027-07", "country": "美国", "orders": 890, "ttv": 22100000 },
+    { "month": "2027-10", "country": "中国", "orders": 2100, "ttv": 35200000 },
+    { "month": "2027-02", "country": "中国香港", "orders": 480, "ttv": 8900000 },
+    { "month": "2027-03", "country": "日本", "orders": 1280, "ttv": 24100000 },
+    { "month": "2027-04", "country": "日本", "orders": 1190, "ttv": 22800000 },
+    { "month": "2027-05", "country": "泰国", "orders": 650, "ttv": 7200000 },
+    { "month": "2027-07", "country": "泰国", "orders": 980, "ttv": 10500000 },
+    { "month": "2027-08", "country": "泰国", "orders": 1020, "ttv": 10800000 },
+    { "month": "2026-12", "country": "阿联酋", "orders": 420, "ttv": 9800000 },
+    { "month": "2027-01", "country": "韩国", "orders": 720, "ttv": 11400000 },
+    { "month": "2027-02", "country": "韩国", "orders": 680, "ttv": 10900000 },
+    { "month": "2026-10", "country": "法国", "orders": 710, "ttv": 17500000 }
+  ],
+  "booking_monthly": [
+    { "month": "2027-01", "country": "日本", "orders": 1100, "ttv": 19800000 },
+    { "month": "2027-06", "country": "日本", "orders": 1250, "ttv": 23500000 }
+  ],
+  "p75_monthly": [
+    { "unit": "澳新", "month": "2027-02", "p75": 71.3 },
+    { "unit": "日本", "month": "2027-07", "p75": 58.0 },
+    { "unit": "日本", "month": "2027-03", "p75": 52.0 },
+    { "unit": "泰国", "month": "2027-02", "p75": 56.0 },
+    { "unit": "泰国", "month": "2027-07", "p75": 45.0 },
+    { "unit": "西欧", "month": "2027-07", "p75": 62.0 },
+    { "unit": "美加", "month": "2027-07", "p75": 88.0 }
+  ]
+}

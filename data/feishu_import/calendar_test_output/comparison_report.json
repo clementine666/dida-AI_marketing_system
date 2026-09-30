@@ -1,0 +1,556 @@
+{
+  "human_outbound_count": 42,
+  "human_inbound_count": 4,
+  "system_candidate_count": 117,
+  "strong_match_count": 15,
+  "partial_match_count": 27,
+  "miss_count": 0,
+  "match_rate": 0.357,
+  "p75_exact_matches": 0,
+  "p75_close_matches": 6,
+  "strong_matches": [
+    {
+      "human_sub_theme": "反季盛夏·澳新过大年",
+      "unit": "澳新",
+      "checkout_human": "2月春节+寒假离店",
+      "checkout_month_system": "2026-02",
+      "p75_human": 71.0,
+      "p75_system": 71.3,
+      "p75_diff": 0.29999999999999716,
+      "evidence_system": "2026年02月澳新离店TTV=19.4M，占全年23.9%（排名第1）；目标月P75=71天"
+    },
+    {
+      "human_sub_theme": "热带暖冬·新马泰过年",
+      "unit": "泰国",
+      "checkout_human": "2月春节离店",
+      "checkout_month_system": "2026-02",
+      "p75_human": 48.0,
+      "p75_system": 56.0,
+      "p75_diff": 8.0,
+      "evidence_system": "2026年02月泰国离店TTV=17.6M，占全年28.1%（排名第1）；目标月P75=56天"
+    },
+    {
+      "human_sub_theme": "暖岛潜海·马来泰南斐济",
+      "unit": "泰国",
+      "checkout_human": "五一离店",
+      "checkout_month_system": "2026-02",
+      "p75_human": 24.0,
+      "p75_system": 56.0,
+      "p75_diff": 32.0,
+      "evidence_system": "2026年02月泰国离店TTV=17.6M，占全年28.1%（排名第1）；目标月P75=56天"
+    },
+    {
+      "human_sub_theme": "清凉北欧·峡湾极昼",
+      "unit": "北欧",
+      "checkout_human": "7月暑期离店",
+      "checkout_month_system": "2026-07",
+      "p75_human": 60.0,
+      "p75_system": 60.2,
+      "p75_diff": 0.20000000000000284,
+      "evidence_system": "2026年07月北欧离店TTV=10.3M，占全年13.1%（排名第2）；目标月P75=60天"
+    },
+    {
+      "human_sub_theme": "南半球滑雪·澳新反季",
+      "unit": "澳新",
+      "checkout_human": "7月暑期离店",
+      "checkout_month_system": "2026-07",
+      "p75_human": 43.0,
+      "p75_system": 42.8,
+      "p75_diff": 0.20000000000000284,
+      "evidence_system": "2026年07月澳新离店TTV=8.3M，占全年10.2%（排名第2）；目标月P75=43天"
+    },
+    {
+      "human_sub_theme": "欧美盛夏·长线锁价",
+      "unit": "西欧",
+      "checkout_human": "7月暑期离店",
+      "checkout_month_system": "2026-07",
+      "p75_human": 39.0,
+      "p75_system": 38.9,
+      "p75_diff": 0.10000000000000142,
+      "evidence_system": "2026年07月西欧离店TTV=48.9M，占全年15.3%（排名第1）；目标月P75=39天"
+    },
+    {
+      "human_sub_theme": "地中海盛夏·意西希",
+      "unit": "南欧",
+      "checkout_human": "8月暑期离店",
+      "checkout_month_system": "2026-07",
+      "p75_human": 42.0,
+      "p75_system": 43.1,
+      "p75_diff": 1.1000000000000014,
+      "evidence_system": "2026年07月南欧离店TTV=25.6M，占全年13.3%（排名第1）；目标月P75=43天"
+    },
+    {
+      "human_sub_theme": "巴厘岛·亲子度假",
+      "unit": "印度尼西亚",
+      "checkout_human": "8月暑期离店",
+      "checkout_month_system": "2026-07",
+      "p75_human": 26.0,
+      "p75_system": 28.0,
+      "p75_diff": 2.0,
+      "evidence_system": "2026年07月印度尼西亚离店TTV=4.5M，占全年15.3%（排名第1）；目标月P75=28天"
+    },
+    {
+      "human_sub_theme": "国庆金秋·欧洲游",
+      "unit": "西欧",
+      "checkout_human": "10月国庆离店",
+      "checkout_month_system": "2026-07",
+      "p75_human": 45.0,
+      "p75_system": 38.9,
+      "p75_diff": 6.100000000000001,
+      "evidence_system": "2026年07月西欧离店TTV=48.9M，占全年15.3%（排名第1）；目标月P75=39天"
+    },
+    {
+      "human_sub_theme": "南半球初夏·澳新避寒",
+      "unit": "澳新",
+      "checkout_human": "12月双诞离店",
+      "checkout_month_system": "2026-02",
+      "p75_human": 43.0,
+      "p75_system": 71.3,
+      "p75_diff": 28.299999999999997,
+      "evidence_system": "2026年02月澳新离店TTV=19.4M，占全年23.9%（排名第1）；目标月P75=71天"
+    },
+    {
+      "human_sub_theme": "极光之约·芬兰玻璃屋",
+      "unit": "北欧",
+      "checkout_human": "12月双诞离店",
+      "checkout_month_system": "2026-02",
+      "p75_human": 39.0,
+      "p75_system": 48.5,
+      "p75_diff": 9.5,
+      "evidence_system": "2026年02月北欧离店TTV=11.4M，占全年14.5%（排名第1）；目标月P75=48天"
+    },
+    {
+      "human_sub_theme": "水灯天灯·泰北凉季",
+      "unit": "泰国",
+      "checkout_human": "11月中水灯节+12月凉季",
+      "checkout_month_system": "2026-02",
+      "p75_human": 19.0,
+      "p75_system": 56.0,
+      "p75_diff": 37.0,
+      "evidence_system": "2026年02月泰国离店TTV=17.6M，占全年28.1%（排名第1）；目标月P75=56天"
+    },
+    {
+      "human_sub_theme": "寒假亲子·澳新游",
+      "unit": "澳新",
+      "checkout_human": "2028寒假+春节离店",
+      "checkout_month_system": "2026-02",
+      "p75_human": 47.0,
+      "p75_system": 71.3,
+      "p75_diff": 24.299999999999997,
+      "evidence_system": "2026年02月澳新离店TTV=19.4M，占全年23.9%（排名第1）；目标月P75=71天"
+    },
+    {
+      "human_sub_theme": "跨年迪拜·双诞奢华迎新(双诞+跨年合并)",
+      "unit": "阿联酋",
+      "checkout_human": "12/31跨年+1月离店",
+      "checkout_month_system": "2026-02",
+      "p75_human": 31.0,
+      "p75_system": 55.0,
+      "p75_diff": 24.0,
+      "evidence_system": "2026年02月阿联酋离店TTV=21.5M，占全年36.1%（排名第1）；目标月P75=55天"
+    },
+    {
+      "human_sub_theme": "春节锁价·东南亚暖冬",
+      "unit": "泰国",
+      "checkout_human": "2028春节离店",
+      "checkout_month_system": "2026-02",
+      "p75_human": 50.0,
+      "p75_system": 56.0,
+      "p75_diff": 6.0,
+      "evidence_system": "2026年02月泰国离店TTV=17.6M，占全年28.1%（排名第1）；目标月P75=56天"
+    }
+  ],
+  "partial_matches": [
+    {
+      "human": {
+        "row": 4,
+        "session": "",
+        "sub_theme": "短途行街·港澳过年",
+        "destinations": "中国香港/中国澳门",
+        "checkout_window": "2月春节离店",
+        "p75": 24.0,
+        "evidence": "2月港澳台12.6M=其全年峰值，短途说走就走、决策链最短",
+        "is_inbound": false
+      },
+      "unit": "中国",
+      "human_months": [
+        "2026-02"
+      ],
+      "system_peak_months": [
+        "2025-08",
+        "2025-11",
+        "2025-10"
+      ],
+      "p75_human": 24.0,
+      "p75_system_month": 15.0,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 5,
+        "session": "",
+        "sub_theme": "追樱日本·关西花见",
+        "destinations": "日本(关西京都/大阪 + 关东东京)",
+        "checkout_window": "3月下旬-4月樱花+清明离店",
+        "p75": 65.0,
+        "evidence": "4月日本19.9M并列当月Top1(占17%)，樱花季全年招牌，拆【关西/关东】区别后续北海道/京都",
+        "is_inbound": false
+      },
+      "unit": "日本",
+      "human_months": [
+        "2026-03",
+        "2026-04"
+      ],
+      "system_peak_months": [
+        "2025-08",
+        "2025-10",
+        "2025-11"
+      ],
+      "p75_human": 65.0,
+      "p75_system_month": 32.0,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 6,
+        "session": "2月场",
+        "sub_theme": "暮春地中海·西法暖阳",
+        "destinations": "南欧(西班牙/法国南部/意大利/希腊)",
+        "checkout_window": "五一(5/1)离店",
+        "p75": 47.0,
+        "evidence": "5月南欧21.2M当月Top2(占16%)，暮春气候最佳、暑期前价优",
+        "is_inbound": false
+      },
+      "unit": "南欧",
+      "human_months": [
+        "2026-05"
+      ],
+      "system_peak_months": [
+        "2026-07",
+        "2025-10",
+        "2026-06"
+      ],
+      "p75_human": 47.0,
+      "p75_system_month": 43.1,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 8,
+        "session": "",
+        "sub_theme": "欧陆初春·西欧南欧",
+        "destinations": "西欧(法国/瑞士/英国)\n南欧（意大利+西班牙+葡萄牙）",
+        "checkout_window": "4月清明+春日离店",
+        "p75": 34.0,
+        "evidence": "4月西欧19.2M并列当月Top1(占17%)、南欧同期高基数，初春错峰人少价优(西欧+南欧按离店TTV加权P75)",
+        "is_inbound": false
+      },
+      "unit": "西欧",
+      "human_months": [
+        "2026-04"
+      ],
+      "system_peak_months": [
+        "2026-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "p75_human": 34.0,
+      "p75_system_month": 38.9,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 10,
+        "session": "",
+        "sub_theme": "东南亚春日早鸟节・泼水狂欢提前抢",
+        "destinations": "泰国(曼谷/清迈/普吉)/新加坡/买来西亚/越南/印度尼西亚",
+        "checkout_window": "宋干节4/13-15离店",
+        "p75": 22.0,
+        "evidence": "宋干节4/13-15=全球最大泼水派对，强体验事件型爆款；东南亚春日早鸟节主会场，泰国4月P75=22",
+        "is_inbound": false
+      },
+      "unit": "泰国",
+      "human_months": [
+        "2026-04"
+      ],
+      "system_peak_months": [
+        "2026-02",
+        "2026-01",
+        "2025-10"
+      ],
+      "p75_human": 22.0,
+      "p75_system_month": 56.0,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 15,
+        "session": "",
+        "sub_theme": "名校研学",
+        "destinations": "美国(东岸波士顿/纽约/华盛顿名校·西岸黄石/大峡谷)+加拿大(多伦多/温哥华/班夫)+中国香港+新加坡等",
+        "checkout_window": "7月暑期离店",
+        "p75": 33.0,
+        "evidence": "7月美加26.7M=其全年峰值(占13%)，暑期名校研学/夏令营/国家公园高峰",
+        "is_inbound": false
+      },
+      "unit": "中国",
+      "human_months": [
+        "2026-07"
+      ],
+      "system_peak_months": [
+        "2025-08",
+        "2025-11",
+        "2025-10"
+      ],
+      "p75_human": 33.0,
+      "p75_system_month": 15.0,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 17,
+        "session": "",
+        "sub_theme": "夏日祭典·北海道花火",
+        "destinations": "日本(北海道富良野/美瑛/东京/大版/京都)",
+        "checkout_window": "8月暑期离店",
+        "p75": 32.0,
+        "evidence": "8月日本39.4M=日本全年峰值(占19%)，拆【北海道花田】区别1月关西/10月京都",
+        "is_inbound": false
+      },
+      "unit": "日本",
+      "human_months": [
+        "2026-01",
+        "2026-07",
+        "2026-10"
+      ],
+      "system_peak_months": [
+        "2025-08",
+        "2025-10",
+        "2025-11"
+      ],
+      "p75_human": 32.0,
+      "p75_system_month": 32.0,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 19,
+        "session": "",
+        "sub_theme": "端午周边·港澳",
+        "destinations": "中国香港/中国澳门",
+        "checkout_window": "端午6/9短假离店",
+        "p75": 13.0,
+        "evidence": "端午短假周边即时单，港澳台6月P75=13最短",
+        "is_inbound": false
+      },
+      "unit": "中国",
+      "human_months": [
+        "2026-06"
+      ],
+      "system_peak_months": [
+        "2025-08",
+        "2025-11",
+        "2025-10"
+      ],
+      "p75_human": 13.0,
+      "p75_system_month": 15.0,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 20,
+        "session": "6月场",
+        "sub_theme": "南半球迎春·澳新",
+        "destinations": "澳大利亚/新西兰",
+        "checkout_window": "10月国庆离店",
+        "p75": 56.0,
+        "evidence": "10月南半球入春，反季错峰长线",
+        "is_inbound": false
+      },
+      "unit": "澳新",
+      "human_months": [
+        "2026-10"
+      ],
+      "system_peak_months": [
+        "2026-02",
+        "2026-07",
+        "2025-08"
+      ],
+      "p75_human": 56.0,
+      "p75_system_month": 71.3,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 22,
+        "session": "",
+        "sub_theme": "星月之夏·浪漫土耳其",
+        "destinations": "土耳其(卡帕多奇亚/棉花堡/伊斯坦布尔)",
+        "checkout_window": "10月国庆离店",
+        "p75": 38.0,
+        "evidence": "10月土耳其2.6M=其全年峰值、全年最佳气候窗口",
+        "is_inbound": false
+      },
+      "unit": "土耳其",
+      "human_months": [
+        "2026-10"
+      ],
+      "system_peak_months": [
+        "2025-10",
+        "2026-07",
+        "2026-05"
+      ],
+      "p75_human": 38.0,
+      "p75_system_month": 38.0,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 23,
+        "session": "",
+        "sub_theme": "美加东岸·赏秋早鸟",
+        "destinations": "美国/加拿大(东岸枫叶大道/阿巴拉契亚)",
+        "checkout_window": "10月国庆离店",
+        "p75": 35.0,
+        "evidence": "10月美加15.7M当月Top4，东岸枫叶季",
+        "is_inbound": false
+      },
+      "unit": "美加",
+      "human_months": [
+        "2026-10"
+      ],
+      "system_peak_months": [
+        "2026-07",
+        "2025-08",
+        "2026-05"
+      ],
+      "p75_human": 35.0,
+      "p75_system_month": 32.9,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 24,
+        "session": "",
+        "sub_theme": "带娃看海・东南亚童趣沙滩季",
+        "destinations": "新加坡圣淘沙 + 泰国普吉 / 苏梅 + 巴厘努沙杜瓦做引流爆款\n芽庄珍珠岛 / 富国岛 / 仙本那做 \"玩水玩乐园\" 差异款",
+        "checkout_window": "8月暑期尾离店",
+        "p75": 25.0,
+        "evidence": "暑期东南亚为旱季好天气、亲子海岛旺季(泰/马/印尼/新/越按TTV加权P75)；精选浪小坡缓亲子滩+一价全包酒店",
+        "is_inbound": false
+      },
+      "unit": "泰国",
+      "human_months": [
+        "2026-07"
+      ],
+      "system_peak_months": [
+        "2026-02",
+        "2026-01",
+        "2025-10"
+      ],
+      "p75_human": 25.0,
+      "p75_system_month": 56.0,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 25,
+        "session": "7月场",
+        "sub_theme": "欧陆金秋·意法深度",
+        "destinations": "南欧(意大利/法国南部/西班牙)",
+        "checkout_window": "10月国庆离店",
+        "p75": 47.0,
+        "evidence": "10月南欧24.1M当月Top3(占13%)，秋季天气稳定景色佳",
+        "is_inbound": false
+      },
+      "unit": "南欧",
+      "human_months": [
+        "2026-10"
+      ],
+      "system_peak_months": [
+        "2026-07",
+        "2025-10",
+        "2026-06"
+      ],
+      "p75_human": 47.0,
+      "p75_system_month": 43.1,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 26,
+        "session": "",
+        "sub_theme": "国庆韩国·红叶购物",
+        "destinations": "韩国(首尔/南怡岛/济州)",
+        "checkout_window": "10月国庆离店",
+        "p75": 40.0,
+        "evidence": "10月韩国红叶+购物季，短途高性价比",
+        "is_inbound": false
+      },
+      "unit": "韩国",
+      "human_months": [
+        "2026-10"
+      ],
+      "system_peak_months": [
+        "2026-07",
+        "2026-05",
+        "2025-08"
+      ],
+      "p75_human": 40.0,
+      "p75_system_month": 33.0,
+      "note": "离店月份不完全一致，但单元匹配"
+    },
+    {
+      "human": {
+        "row": 27,
+        "session": "",
+        "sub_theme": "F1夜赛·新加坡早鸟",
+        "destinations": "新加坡(滨海湾/圣淘沙)",
+        "checkout_window": "F1正赛10/10离店",
+        "p75": 27.0,
+        "evidence": "F1正赛暂定10/8-10叠加国庆，事件型稀缺爆款(以FIA最终赛历为准)，新加坡10月P75=27",
+        "is_inbound": false
+      },
+      "unit": "新加坡",
+      "human_months": [
+        "2026-10"
+      ],
+      "system_peak_months": [
+        "2026-02",
+        "2025-08",
+        "2026-07"
+      ],
+      "p75_human": 27.0,
+      "p75_system_month": 42.0,
+      "note": "离店月份不完全一致，但单元匹配"
+    }
+  ],
+  "misses": [],
+  "system_extra_top_units": [
+    "东欧",
+    "关岛",
+    "南非",
+    "哈萨克斯坦",
+    "哥伦比亚",
+    "坦桑尼亚",
+    "埃及",
+    "塞舌尔",
+    "多米尼加共和国",
+    "巴哈马",
+    "巴西",
+    "摩洛哥",
+    "斐济",
+    "智利",
+    "毛里求斯",
+    "沙特阿拉伯",
+    "法属波利尼西亚",
+    "波多黎各",
+    "港澳台",
+    "瓦努阿图",
+    "秘鲁",
+    "肯尼亚",
+    "越南",
+    "阿根廷",
+    "马来西亚"
+  ]
+}

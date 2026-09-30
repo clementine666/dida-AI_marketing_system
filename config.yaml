@@ -1,0 +1,59 @@
+# 多Agent营销协作系统 - 配置文件
+database:
+  # sqlite | postgresql
+  type: sqlite
+  sqlite_path: data/marketing.db
+  # PostgreSQL 配置（type=postgresql 时生效）
+  postgresql_url: postgresql://user:password@localhost:5432/marketing
+
+data_sources:
+  # 将 Excel/CSV 样本文件放到 data/raw/ 并修改路径
+  events_file: data/raw/ods_amplitude_events.csv
+  users_file: data/raw/ods_amplitude_users.csv
+  funnel_file: data/raw/dwd_hotel_shopping_funnel_detai.csv
+  orders_file: data/raw/channelbooking_v2.csv
+  # 若文件不存在，自动生成模拟样本数据
+  generate_sample_if_missing: true
+  sample_size: 10000
+
+etl:
+  daily_sync_hour: 2
+  hourly_monitor: true
+  t_minus_days: 1
+
+# 飞书集成（双 Base 架构）
+feishu:
+  # Agent1 营销日历 — 2026营销日历（对内：旅游目的地营销日历）
+  marketing_calendar:
+    app_token: "GpYkbnH9ga8nMAs0GUQcCXoInXe"
+    url: "https://didatravel.feishu.cn/base/GpYkbnH9ga8nMAs0GUQcCXoInXe"
+    # 环境变量: FEISHU_MARKETING_CALENDAR_TABLE_ID, FEISHU_MARKETING_CALENDAR_VIEW_ID
+    view_name: "对内：旅游目的地营销日历"
+  # Agent4 复盘回写 — 活动信息汇总
+  review:
+    app_token: "ORgrby0BlamXTqsddAiclN77ncf"
+    # 环境变量: FEISHU_BITABLE_TABLE_ID
+  # 通用凭证
+  # FEISHU_APP_ID, FEISHU_APP_SECRET
+  use_mock_when_no_credentials: true
+
+# 数据仓库 MCP（Agent2/3/4 主数据源）
+warehouse:
+  # MCP / SQL 网关地址，配置后 Agent2 直接查数仓三张表
+  mcp_endpoint: ""
+  mcp_sql_path: "/query"
+  use_local_fallback: true
+  # 生产数仓表名（默认值，可通过环境变量覆盖）
+  tables:
+    events: "shopping.ods_amplitude_events"
+    users: "shopping.ods_amplitude_users"
+    funnel: "dwd.dwd_hotel_shopping_funnel_detail_d_f"
+    orders: "booking.channelbooking_v2"
+  # 埋点方案参考：0.2 Shopping网站埋点（飞书云文档）
+  tracking_doc: "0.2 Shopping网站埋点"
+  # 样本 Excel 路径（本地开发导入用）
+  sample_excel: "C:/Users/jw107/Downloads/部分数据明细导出.xlsx"
+
+api:
+  host: 0.0.0.0
+  port: 8000

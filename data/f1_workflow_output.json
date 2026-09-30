@@ -1,0 +1,2553 @@
+{
+  "workflow": "Singapore F1 Campaign",
+  "campaign_id": "CAMP_F1_SG_2026",
+  "agent1_demand_report": {
+    "destination": "Singapore",
+    "target_clients": [
+      {
+        "client_id": "c_5382",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8838",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_10077",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9010",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5263",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_7716",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7422",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6428",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_8604",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_8919",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6178",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5503",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Thailand",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5233",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "中价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8657",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9152",
+        "client_group_cn": "其他",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7669",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_7949",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "South Korea",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_10022",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8236",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_7151",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7460",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "South Korea",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_9506",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "United Arab Emirates",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_9474",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_10112",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_9317",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9070",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6454",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_5900",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6309",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_7259",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5275",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "中价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "United Arab Emirates",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_8968",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6616",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6081",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "United Arab Emirates",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5550",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7841",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6997",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_5081",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "高价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_5437",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6381",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6681",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6814",
+        "client_group_cn": "海外线上",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9867",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_7348",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6241",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9421",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6832",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Thailand",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_9006",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_8460",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6258",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9603",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7015",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9471",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7916",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5730",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_8867",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_5846",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7924",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_8906",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5377",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_8615",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6020",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_5334",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_7387",
+        "client_group_cn": "海外线上",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8234",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6759",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6530",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5920",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6510",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7879",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6364",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "South Korea",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8119",
+        "client_group_cn": "其他",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_9931",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6109",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_9325",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Thailand",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6372",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "United Arab Emirates",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_7209",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7909",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "United Arab Emirates",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7631",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7159",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6206",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "South Korea",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5574",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6031",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9408",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Thailand",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5051",
+        "client_group_cn": "其他",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9327",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7496",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "South Korea",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9324",
+        "client_group_cn": "其他",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6453",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7702",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6646",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_10011",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Thailand",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9964",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5982",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_8774",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6408",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6895",
+        "client_group_cn": "其他",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5151",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "中价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7941",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "South Korea",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_5185",
+        "client_group_cn": "海外线上",
+        "tag_customer_value": "中价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_9208",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7706",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Thailand",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7616",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "United Arab Emirates",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_10220",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8173",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_5946",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6723",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7176",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6842",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6862",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_10051",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7583",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_8397",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9495",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "South Korea",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_5329",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6465",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7457",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_8010",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7984",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6469",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7020",
+        "client_group_cn": "海外线上",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6451",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7049",
+        "client_group_cn": "海外线上",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_10326",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "South Korea",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9503",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5184",
+        "client_group_cn": "海外线上",
+        "tag_customer_value": "中价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5244",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "中价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5740",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9976",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9269",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_8029",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_9383",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7016",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_9799",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8650",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Thailand",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7825",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6053",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8782",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_5802",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_8687",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6695",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_8135",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6210",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "South Korea",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6737",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5101",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_8192",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "South Korea",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_9403",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5622",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9150",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6349",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6858",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_8888",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7617",
+        "client_group_cn": "海外线上",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_5148",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_8993",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_5285",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "中价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_9370",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5667",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_7030",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5563",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8509",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9453",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6425",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_9221",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_9479",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_9039",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_10053",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7397",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8886",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "United Arab Emirates",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7793",
+        "client_group_cn": "海外线上",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_9227",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_9548",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9998",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_5902",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6019",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6394",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Thailand",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8917",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8723",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9030",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6916",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_5602",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "United Arab Emirates",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_7471",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7738",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5971",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8625",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Thailand",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6803",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9794",
+        "client_group_cn": "海外线上",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_7981",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6623",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9803",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_6536",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6572",
+        "client_group_cn": "海外线上",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "United Arab Emirates",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5978",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_5102",
+        "client_group_cn": "国内线下API",
+        "tag_customer_value": "中价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "South Korea",
+        "tag_churn_risk": "高风险"
+      },
+      {
+        "client_id": "c_6637",
+        "client_group_cn": "海外线上",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_5746",
+        "client_group_cn": "内部账号",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_6690",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "United Arab Emirates",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_5149",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      },
+      {
+        "client_id": "c_9097",
+        "client_group_cn": "海外线下",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "一般",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "低风险"
+      },
+      {
+        "client_id": "c_8557",
+        "client_group_cn": "国内线下Shopping",
+        "tag_customer_value": "低价值",
+        "tag_activity_level": "休眠",
+        "tag_preferred_dest": "Singapore",
+        "tag_churn_risk": "中风险"
+      }
+    ],
+    "client_count": 200,
+    "search_preferences": [
+      {
+        "search_des_query": "Singapore",
+        "star_rating": "5",
+        "avg_price_min": null,
+        "avg_price_max": null,
+        "searches": 326
+      },
+      {
+        "search_des_query": "Singapore",
+        "star_rating": "4",
+        "avg_price_min": null,
+        "avg_price_max": null,
+        "searches": 82
+      }
+    ],
+    "behavior_summary": [
+      {
+        "event_type": "hotel_detail_rp_expose",
+        "cnt": 395
+      },
+      {
+        "event_type": "page_leave",
+        "cnt": 253
+      },
+      {
+        "event_type": "search_des_sugg_expose",
+        "cnt": 116
+      },
+      {
+        "event_type": "page_view",
+        "cnt": 71
+      },
+      {
+        "event_type": "search_hoteldetail_request",
+        "cnt": 64
+      },
+      {
+        "event_type": "search_hoteldetail_result_return",
+        "cnt": 62
+      },
+      {
+        "event_type": "search_des_sugg_request",
+        "cnt": 45
+      },
+      {
+        "event_type": "search_des_sugg_result_return",
+        "cnt": 43
+      },
+      {
+        "event_type": "search_enter",
+        "cnt": 41
+      },
+      {
+        "event_type": "Search",
+        "cnt": 37
+      }
+    ],
+    "funnel_analysis": [
+      {
+        "step_code": "request",
+        "step_name": "酒店详情请求",
+        "step_no": 1,
+        "cnt": 125,
+        "step_conversion": 1.0
+      },
+      {
+        "step_code": "available",
+        "step_name": "酒店详情有价返回",
+        "step_no": 2,
+        "cnt": 101,
+        "step_conversion": 0.808
+      },
+      {
+        "step_code": "expose",
+        "step_name": "酒店详情RP曝光",
+        "step_no": 3,
+        "cnt": 842,
+        "step_conversion": 8.3366
+      },
+      {
+        "step_code": "click",
+        "step_name": "酒店详情RP点击",
+        "step_no": 4,
+        "cnt": 21,
+        "step_conversion": 0.0249
+      },
+      {
+        "step_code": "prebook",
+        "step_name": "preorder结果返回",
+        "step_no": 5,
+        "cnt": 15,
+        "step_conversion": 0.7143
+      },
+      {
+        "step_code": "click_payment",
+        "step_name": "点击下一步支付",
+        "step_no": 6,
+        "cnt": 5,
+        "step_conversion": 0.3333
+      },
+      {
+        "step_code": "payment_return",
+        "step_name": "下一步支付返回",
+        "step_no": 7,
+        "cnt": 3,
+        "step_conversion": 0.6
+      },
+      {
+        "step_code": "prebook_total",
+        "step_name": "Shopping所有订单结果返回",
+        "step_no": 8,
+        "cnt": 6,
+        "step_conversion": 2.0
+      },
+      {
+        "step_code": "prebook_success",
+        "step_name": "Shopping成功订单结果返回",
+        "step_no": 9,
+        "cnt": 6,
+        "step_conversion": 1.0
+      },
+      {
+        "step_code": "booking_with_fail",
+        "step_name": "Booking含失败",
+        "step_no": 10,
+        "cnt": 2,
+        "step_conversion": 0.3333
+      },
+      {
+        "step_code": "booking_valid",
+        "step_name": "Booking确认+取消",
+        "step_no": 11,
+        "cnt": 7,
+        "step_conversion": 3.5
+      }
+    ],
+    "external_events": [
+      {
+        "event_id": 1,
+        "destination": "Singapore",
+        "event_name": "Formula 1 Singapore Grand Prix 2026",
+        "event_type": "体育",
+        "start_date": "2026-09-18",
+        "end_date": "2026-09-20",
+        "impact_level": "高",
+        "expected_hotel_demand": "极高",
+        "target_hotel_radius": 5,
+        "target_star_rating": "4-5",
+        "description": "F1新加坡大奖赛，滨海湾赛道周边酒店需求激增",
+        "source": "manual",
+        "created_at": "2026-08-11 11:15:35"
+      },
+      {
+        "event_id": 2,
+        "destination": "Singapore",
+        "event_name": "Singapore Food Festival 2026",
+        "event_type": "节日",
+        "start_date": "2026-07-01",
+        "end_date": "2026-07-31",
+        "impact_level": "中",
+        "expected_hotel_demand": "中",
+        "target_hotel_radius": 10,
+        "target_star_rating": "3-5",
+        "description": "新加坡美食节",
+        "source": "manual",
+        "created_at": "2026-08-11 11:15:35"
+      }
+    ],
+    "recommendation_direction": [
+      "针对 Singapore 目的地，优先触达 200 个有搜索行为的客户",
+      "推荐星级: 4, 5",
+      "关注漏斗流失环节: Booking含失败"
+    ]
+  },
+  "agent2_resource_match": {
+    "destination": "Singapore",
+    "event_context": "F1 Singapore Grand Prix",
+    "matched_hotels": [
+      {
+        "hotel_id": 1001001,
+        "hotel_name": "Marina Bay Sands",
+        "star_rating": "5",
+        "city": "Singapore",
+        "avg_price_cny": 387.56,
+        "inventory_status": null,
+        "tag_popularity": "热门"
+      },
+      {
+        "hotel_id": 1001005,
+        "hotel_name": "Parkroyal Collection Marina Bay",
+        "star_rating": "4",
+        "city": "Singapore",
+        "avg_price_cny": 424.01,
+        "inventory_status": null,
+        "tag_popularity": "普通"
+      },
+      {
+        "hotel_id": 1001004,
+        "hotel_name": "Swissotel The Stamford",
+        "star_rating": "5",
+        "city": "Singapore",
+        "avg_price_cny": 464.34,
+        "inventory_status": null,
+        "tag_popularity": "普通"
+      },
+      {
+        "hotel_id": 1001003,
+        "hotel_name": "Pan Pacific Singapore",
+        "star_rating": "5",
+        "city": "Singapore",
+        "avg_price_cny": 304.73,
+        "inventory_status": null,
+        "tag_popularity": "普通"
+      },
+      {
+        "hotel_id": 1001002,
+        "hotel_name": "The Fullerton Hotel Singapore",
+        "star_rating": "5",
+        "city": "Singapore",
+        "avg_price_cny": 416.83,
+        "inventory_status": null,
+        "tag_popularity": "普通"
+      }
+    ],
+    "hotel_count": 5,
+    "resource_gaps": [
+      {
+        "country_name": "Singapore",
+        "city_name": "Singapore",
+        "star_rating": "5",
+        "sold_out_cnt": 295,
+        "available_cnt": 304,
+        "total": 896
+      },
+      {
+        "country_name": "Singapore",
+        "city_name": "Singapore",
+        "star_rating": "4",
+        "sold_out_cnt": 85,
+        "available_cnt": 72,
+        "total": 237
+      }
+    ],
+    "matching_features": [
+      "F1赛场5km辐射圈酒店优先",
+      "4-5星级酒店",
+      "直签酒店(DC)优先展示"
+    ],
+    "recommended_promotions": [
+      "F1赛事专属套餐",
+      "提前预订折扣",
+      "多间夜连住优惠"
+    ]
+  },
+  "agent3_campaign_plan": {
+    "campaign_id": "CAMP_F1_SG_2026",
+    "campaign_name": "新加坡F1赛事酒店预订",
+    "target_audience": {
+      "client_groups": "2,6,7",
+      "client_count": 200,
+      "profiles": [
+        {
+          "client_id": "c_5382",
+          "client_group_cn": "国内线下Shopping",
+          "tag_customer_value": "低价值",
+          "tag_activity_level": "一般",
+          "tag_preferred_dest": "Singapore",
+          "tag_churn_risk": "低风险"
+        },
+        {
+          "client_id": "c_8838",
+          "client_group_cn": "国内线下Shopping",
+          "tag_customer_value": "低价值",
+          "tag_activity_level": "一般",
+          "tag_preferred_dest": "Singapore",
+          "tag_churn_risk": "低风险"
+        },
+        {
+          "client_id": "c_10077",
+          "client_group_cn": "内部账号",
+          "tag_customer_value": "低价值",
+          "tag_activity_level": "休眠",
+          "tag_preferred_dest": "Singapore",
+          "tag_churn_risk": "中风险"
+        },
+        {
+          "client_id": "c_9010",
+          "client_group_cn": "海外线下",
+          "tag_customer_value": "低价值",
+          "tag_activity_level": "休眠",
+          "tag_preferred_dest": "Singapore",
+          "tag_churn_risk": "中风险"
+        },
+        {
+          "client_id": "c_5263",
+          "client_group_cn": "内部账号",
+          "tag_customer_value": "低价值",
+          "tag_activity_level": "休眠",
+          "tag_preferred_dest": "Singapore",
+          "tag_churn_risk": "高风险"
+        },
+        {
+          "client_id": "c_7716",
+          "client_group_cn": "国内线下Shopping",
+          "tag_customer_value": "低价值",
+          "tag_activity_level": "休眠",
+          "tag_preferred_dest": "Singapore",
+          "tag_churn_risk": "中风险"
+        },
+        {
+          "client_id": "c_7422",
+          "client_group_cn": "国内线下Shopping",
+          "tag_customer_value": "低价值",
+          "tag_activity_level": "休眠",
+          "tag_preferred_dest": "Singapore",
+          "tag_churn_risk": "中风险"
+        },
+        {
+          "client_id": "c_6428",
+          "client_group_cn": "国内线下Shopping",
+          "tag_customer_value": "低价值",
+          "tag_activity_level": "休眠",
+          "tag_preferred_dest": "Singapore",
+          "tag_churn_risk": "高风险"
+        },
+        {
+          "client_id": "c_8604",
+          "client_group_cn": "国内线下Shopping",
+          "tag_customer_value": "低价值",
+          "tag_activity_level": "休眠",
+          "tag_preferred_dest": "Singapore",
+          "tag_churn_risk": "中风险"
+        },
+        {
+          "client_id": "c_8919",
+          "client_group_cn": "海外线下",
+          "tag_customer_value": "低价值",
+          "tag_activity_level": "休眠",
+          "tag_preferred_dest": "Singapore",
+          "tag_churn_risk": "中风险"
+        }
+      ]
+    },
+    "product_selection": [
+      {
+        "hotel_id": 1001001,
+        "hotel_name": "Marina Bay Sands",
+        "star_rating": "5",
+        "city": "Singapore",
+        "avg_price_cny": 387.56,
+        "inventory_status": null,
+        "tag_popularity": "热门"
+      },
+      {
+        "hotel_id": 1001005,
+        "hotel_name": "Parkroyal Collection Marina Bay",
+        "star_rating": "4",
+        "city": "Singapore",
+        "avg_price_cny": 424.01,
+        "inventory_status": null,
+        "tag_popularity": "普通"
+      },
+      {
+        "hotel_id": 1001004,
+        "hotel_name": "Swissotel The Stamford",
+        "star_rating": "5",
+        "city": "Singapore",
+        "avg_price_cny": 464.34,
+        "inventory_status": null,
+        "tag_popularity": "普通"
+      },
+      {
+        "hotel_id": 1001003,
+        "hotel_name": "Pan Pacific Singapore",
+        "star_rating": "5",
+        "city": "Singapore",
+        "avg_price_cny": 304.73,
+        "inventory_status": null,
+        "tag_popularity": "普通"
+      },
+      {
+        "hotel_id": 1001002,
+        "hotel_name": "The Fullerton Hotel Singapore",
+        "star_rating": "5",
+        "city": "Singapore",
+        "avg_price_cny": 416.83,
+        "inventory_status": null,
+        "tag_popularity": "普通"
+      }
+    ],
+    "push_strategy": {
+      "channels": [
+        "首页Banner",
+        "热门酒店小助手",
+        "邮件推送"
+      ],
+      "timing": "赛事前45天开始预热，赛前2周加大投放",
+      "promotions": [
+        "F1赛事专属套餐",
+        "提前预订折扣",
+        "多间夜连住优惠"
+      ]
+    },
+    "target_metrics": {
+      "banner_ctr": 0.05,
+      "order_count": 100,
+      "total_ttv": 500000,
+      "conversion_rate_overall": 0.02
+    },
+    "current_metrics": {
+      "campaign_id": "CAMP_F1_SG_2026",
+      "banner_expose_count": 156,
+      "banner_click_count": 35,
+      "banner_ctr": 0.2244,
+      "rp_expose_count": 395,
+      "rp_click_count": 10,
+      "rp_ctr": 0.0253,
+      "preorder_count": 2,
+      "order_count": 251,
+      "total_ttv": 700633.41,
+      "total_gp": 105095.03,
+      "unique_clients": 1026
+    },
+    "monitoring_dashboard": {
+      "metrics_tracked": [
+        "campaign_id",
+        "banner_expose_count",
+        "banner_click_count",
+        "banner_ctr",
+        "rp_expose_count",
+        "rp_click_count",
+        "rp_ctr",
+        "preorder_count",
+        "order_count",
+        "total_ttv",
+        "total_gp",
+        "unique_clients"
+      ],
+      "alert_rules": [
+        {
+          "rule_id": 1,
+          "campaign_id": "CAMP_F1_SG_2026",
+          "metric_name": "banner_ctr",
+          "condition_type": "低于",
+          "threshold_value": 0.03,
+          "alert_level": "黄",
+          "alert_action": "通知",
+          "is_active": 1
+        },
+        {
+          "rule_id": 2,
+          "campaign_id": "CAMP_F1_SG_2026",
+          "metric_name": "order_count",
+          "condition_type": "低于",
+          "threshold_value": 50.0,
+          "alert_level": "红",
+          "alert_action": "通知",
+          "is_active": 1
+        },
+        {
+          "rule_id": 3,
+          "campaign_id": "CAMP_F1_SG_2026",
+          "metric_name": "conversion_rate_overall",
+          "condition_type": "低于",
+          "threshold_value": 0.01,
+          "alert_level": "黄",
+          "alert_action": "调整",
+          "is_active": 1
+        }
+      ],
+      "monitor_url": "/api/agent3/monitor/CAMP_F1_SG_2026"
+    },
+    "status": "进行中"
+  },
+  "agent3_alerts": [],
+  "agent4_review_report": {
+    "report_title": "新加坡F1赛事酒店预订 - 活动复盘报告",
+    "generated_at": "2026-08-11T19:15:53.479078",
+    "background": {
+      "campaign_name": "新加坡F1赛事酒店预订",
+      "campaign_type": "Banner",
+      "period": "2026-08-01 ~ 2026-09-25",
+      "target_dest": "Singapore",
+      "budget": 50000.0
+    },
+    "objectives": {
+      "banner_ctr": 0.05,
+      "order_count": 100,
+      "total_ttv": 500000,
+      "conversion_rate_overall": 0.02
+    },
+    "actual_results": {
+      "campaign_id": "CAMP_F1_SG_2026",
+      "banner_expose_count": 156,
+      "banner_click_count": 35,
+      "banner_ctr": 0.2244,
+      "rp_expose_count": 395,
+      "rp_click_count": 10,
+      "rp_ctr": 0.0253,
+      "preorder_count": 2,
+      "order_count": 251,
+      "total_ttv": 700633.41,
+      "total_gp": 105095.03,
+      "unique_clients": 1026
+    },
+    "target_vs_actual": {
+      "banner_ctr": {
+        "target": 0.05,
+        "actual": 0.2244,
+        "achievement_rate": 4.488
+      },
+      "order_count": {
+        "target": 100,
+        "actual": 251,
+        "achievement_rate": 2.51
+      },
+      "total_ttv": {
+        "target": 500000,
+        "actual": 700633.41,
+        "achievement_rate": 1.4013
+      },
+      "conversion_rate_overall": {
+        "target": 0.02,
+        "actual": null,
+        "achievement_rate": null
+      }
+    },
+    "roi": {
+      "total_ttv": 700633.41,
+      "total_gp": 105095.03,
+      "budget": 50000.0,
+      "roi_rate": 1.1019,
+      "order_count": 251
+    },
+    "funnel_analysis": [
+      {
+        "step_code": "request",
+        "step_name": "酒店详情请求",
+        "step_no": 1,
+        "cnt": 125
+      },
+      {
+        "step_code": "available",
+        "step_name": "酒店详情有价返回",
+        "step_no": 2,
+        "cnt": 101
+      },
+      {
+        "step_code": "expose",
+        "step_name": "酒店详情RP曝光",
+        "step_no": 3,
+        "cnt": 842
+      },
+      {
+        "step_code": "click",
+        "step_name": "酒店详情RP点击",
+        "step_no": 4,
+        "cnt": 21
+      },
+      {
+        "step_code": "prebook",
+        "step_name": "preorder结果返回",
+        "step_no": 5,
+        "cnt": 15
+      },
+      {
+        "step_code": "click_payment",
+        "step_name": "点击下一步支付",
+        "step_no": 6,
+        "cnt": 5
+      },
+      {
+        "step_code": "payment_return",
+        "step_name": "下一步支付返回",
+        "step_no": 7,
+        "cnt": 3
+      },
+      {
+        "step_code": "prebook_total",
+        "step_name": "Shopping所有订单结果返回",
+        "step_no": 8,
+        "cnt": 6
+      },
+      {
+        "step_code": "prebook_success",
+        "step_name": "Shopping成功订单结果返回",
+        "step_no": 9,
+        "cnt": 6
+      },
+      {
+        "step_code": "booking_with_fail",
+        "step_name": "Booking含失败",
+        "step_no": 10,
+        "cnt": 2
+      },
+      {
+        "step_code": "booking_valid",
+        "step_name": "Booking确认+取消",
+        "step_no": 11,
+        "cnt": 7
+      }
+    ],
+    "key_findings": [
+      "banner_ctr 达成率 449%，超额完成",
+      "order_count 达成率 251%，超额完成",
+      "total_ttv 达成率 140%，超额完成"
+    ],
+    "optimization_suggestions": [
+      "保持当前策略，下阶段可尝试A/B测试优化"
+    ],
+    "orders_sample": [
+      {
+        "order_number": "ORD2026090004",
+        "client_id": "c_5005",
+        "client_name": null,
+        "client_bd": "BD_A",
+        "client_op": null,
+        "client_belong_team": null,
+        "dida_hotel_id": 1001003,
+        "dida_hotel_name": "Pan Pacific Singapore",
+        "dida_hotel_chain": "Global Chain",
+        "dida_hotel_star": "5",
+        "country_name": "Singapore",
+        "destination_name": "Singapore",
+        "room_name": "Deluxe Room",
+        "room_type": "Standard",
+        "bed_type": "King",
+        "board_type": "Breakfast",
+        "status": 1,
+        "check_in_date": "2026-09-16",
+        "check_out_date": "2026-09-18",
+        "room_night_count": 2,
+        "price_cny": 3669.91,
+        "net_rate_cny": 3119.42,
+        "combined_revenue_cny": 550.49,
+        "kpi_revenue_cny": 440.39,
+        "is_direct_contract": 1,
+        "lead_time_hour": 28,
+        "create_time": "2026-08-01 23:00:00.000000",
+        "confirm_time": "2026-08-02 00:00:00.000000",
+        "campaign_id": "CAMP_F1_SG_2026",
+        "campaign_source": null,
+        "user_id": "u_15454"
+      },
+      {
+        "order_number": "ORD2026090113",
+        "client_id": "c_5161",
+        "client_name": null,
+        "client_bd": "BD_A",
+        "client_op": null,
+        "client_belong_team": null,
+        "dida_hotel_id": 1001001,
+        "dida_hotel_name": "Marina Bay Sands",
+        "dida_hotel_chain": "Global Chain",
+        "dida_hotel_star": "5",
+        "country_name": "Singapore",
+        "destination_name": "Singapore",
+        "room_name": "Deluxe Room",
+        "room_type": "Standard",
+        "bed_type": "King",
+        "board_type": "Breakfast",
+        "status": 1,
+        "check_in_date": "2026-09-24",
+        "check_out_date": "2026-09-28",
+        "room_night_count": 4,
+        "price_cny": 4858.44,
+        "net_rate_cny": 4129.67,
+        "combined_revenue_cny": 728.77,
+        "kpi_revenue_cny": 583.01,
+        "is_direct_contract": 0,
+        "lead_time_hour": 281,
+        "create_time": "2026-08-01 23:00:00.000000",
+        "confirm_time": "2026-08-02 00:00:00.000000",
+        "campaign_id": "CAMP_F1_SG_2026",
+        "campaign_source": null,
+        "user_id": "u_15610"
+      },
+      {
+        "order_number": "ORD2026090265",
+        "client_id": "c_5095",
+        "client_name": null,
+        "client_bd": "BD_A",
+        "client_op": null,
+        "client_belong_team": null,
+        "dida_hotel_id": 1001001,
+        "dida_hotel_name": "Marina Bay Sands",
+        "dida_hotel_chain": "Global Chain",
+        "dida_hotel_star": "5",
+        "country_name": "Singapore",
+        "destination_name": "Singapore",
+        "room_name": "Deluxe Room",
+        "room_type": "Standard",
+        "bed_type": "King",
+        "board_type": "Breakfast",
+        "status": 1,
+        "check_in_date": "2026-09-17",
+        "check_out_date": "2026-09-20",
+        "room_night_count": 3,
+        "price_cny": 4939.82,
+        "net_rate_cny": 4198.85,
+        "combined_revenue_cny": 740.97,
+        "kpi_revenue_cny": 592.78,
+        "is_direct_contract": 1,
+        "lead_time_hour": 609,
+        "create_time": "2026-08-01 23:00:00.000000",
+        "confirm_time": "2026-08-02 00:00:00.000000",
+        "campaign_id": "CAMP_F1_SG_2026",
+        "campaign_source": null,
+        "user_id": "u_15544"
+      },
+      {
+        "order_number": "ORD2026090284",
+        "client_id": "c_5121",
+        "client_name": null,
+        "client_bd": "BD_A",
+        "client_op": null,
+        "client_belong_team": null,
+        "dida_hotel_id": 1001003,
+        "dida_hotel_name": "Pan Pacific Singapore",
+        "dida_hotel_chain": "Global Chain",
+        "dida_hotel_star": "5",
+        "country_name": "Singapore",
+        "destination_name": "Singapore",
+        "room_name": "Deluxe Room",
+        "room_type": "Standard",
+        "bed_type": "King",
+        "board_type": "Breakfast",
+        "status": 1,
+        "check_in_date": "2026-09-17",
+        "check_out_date": "2026-09-20",
+        "room_night_count": 3,
+        "price_cny": 1880.21,
+        "net_rate_cny": 1598.18,
+        "combined_revenue_cny": 282.03,
+        "kpi_revenue_cny": 225.63,
+        "is_direct_contract": 1,
+        "lead_time_hour": 265,
+        "create_time": "2026-08-01 23:00:00.000000",
+        "confirm_time": "2026-08-02 00:00:00.000000",
+        "campaign_id": "CAMP_F1_SG_2026",
+        "campaign_source": null,
+        "user_id": "u_15570"
+      },
+      {
+        "order_number": "ORD2026090295",
+        "client_id": "c_5136",
+        "client_name": null,
+        "client_bd": "BD_A",
+        "client_op": null,
+        "client_belong_team": null,
+        "dida_hotel_id": 1001002,
+        "dida_hotel_name": "The Fullerton Hotel Singapore",
+        "dida_hotel_chain": "Global Chain",
+        "dida_hotel_star": "5",
+        "country_name": "Singapore",
+        "destination_name": "Singapore",
+        "room_name": "Deluxe Room",
+        "room_type": "Standard",
+        "bed_type": "King",
+        "board_type": "Breakfast",
+        "status": 1,
+        "check_in_date": "2026-09-20",
+        "check_out_date": "2026-09-23",
+        "room_night_count": 3,
+        "price_cny": 3334.24,
+        "net_rate_cny": 2834.1,
+        "combined_revenue_cny": 500.14,
+        "kpi_revenue_cny": 400.11,
+        "is_direct_contract": 1,
+        "lead_time_hour": 57,
+        "create_time": "2026-08-01 23:00:00.000000",
+        "confirm_time": "2026-08-02 00:00:00.000000",
+        "campaign_id": "CAMP_F1_SG_2026",
+        "campaign_source": null,
+        "user_id": "u_15585"
+      },
+      {
+        "order_number": "ORD2026090389",
+        "client_id": "c_5265",
+        "client_name": null,
+        "client_bd": "BD_A",
+        "client_op": null,
+        "client_belong_team": null,
+        "dida_hotel_id": 1001001,
+        "dida_hotel_name": "Marina Bay Sands",
+        "dida_hotel_chain": "Global Chain",
+        "dida_hotel_star": "5",
+        "country_name": "Singapore",
+        "destination_name": "Singapore",
+        "room_name": "Deluxe Room",
+        "room_type": "Standard",
+        "bed_type": "King",
+        "board_type": "Breakfast",
+        "status": 1,
+        "check_in_date": "2026-09-22",
+        "check_out_date": "2026-09-24",
+        "room_night_count": 2,
+        "price_cny": 3847.6,
+        "net_rate_cny": 3270.46,
+        "combined_revenue_cny": 577.14,
+        "kpi_revenue_cny": 461.71,
+        "is_direct_contract": 0,
+        "lead_time_hour": 82,
+        "create_time": "2026-08-01 23:00:00.000000",
+        "confirm_time": "2026-08-02 00:00:00.000000",
+        "campaign_id": "CAMP_F1_SG_2026",
+        "campaign_source": null,
+        "user_id": "u_15714"
+      },
+      {
+        "order_number": "ORD2026090453",
+        "client_id": "c_5081",
+        "client_name": null,
+        "client_bd": "BD_A",
+        "client_op": null,
+        "client_belong_team": null,
+        "dida_hotel_id": 1001001,
+        "dida_hotel_name": "Marina Bay Sands",
+        "dida_hotel_chain": "Global Chain",
+        "dida_hotel_star": "5",
+        "country_name": "Singapore",
+        "destination_name": "Singapore",
+        "room_name": "Deluxe Room",
+        "room_type": "Standard",
+        "bed_type": "King",
+        "board_type": "Breakfast",
+        "status": 1,
+        "check_in_date": "2026-09-23",
+        "check_out_date": "2026-09-25",
+        "room_night_count": 2,
+        "price_cny": 4813.26,
+        "net_rate_cny": 4091.27,
+        "combined_revenue_cny": 721.99,
+        "kpi_revenue_cny": 577.59,
+        "is_direct_contract": 1,
+        "lead_time_hour": 241,
+        "create_time": "2026-08-01 23:00:00.000000",
+        "confirm_time": "2026-08-02 00:00:00.000000",
+        "campaign_id": "CAMP_F1_SG_2026",
+        "campaign_source": null,
+        "user_id": "u_10081"
+      },
+      {
+        "order_number": "ORD2026090059",
+        "client_id": "c_5089",
+        "client_name": null,
+        "client_bd": "BD_A",
+        "client_op": null,
+        "client_belong_team": null,
+        "dida_hotel_id": 1001004,
+        "dida_hotel_name": "Swissotel The Stamford",
+        "dida_hotel_chain": "Global Chain",
+        "dida_hotel_star": "5",
+        "country_name": "Singapore",
+        "destination_name": "Singapore",
+        "room_name": "Deluxe Room",
+        "room_type": "Standard",
+        "bed_type": "King",
+        "board_type": "Breakfast",
+        "status": 1,
+        "check_in_date": "2026-09-19",
+        "check_out_date": "2026-09-23",
+        "room_night_count": 4,
+        "price_cny": 2678.48,
+        "net_rate_cny": 2276.71,
+        "combined_revenue_cny": 401.77,
+        "kpi_revenue_cny": 321.42,
+        "is_direct_contract": 0,
+        "lead_time_hour": 59,
+        "create_time": "2026-08-01 22:00:00.000000",
+        "confirm_time": "2026-08-02 00:00:00.000000",
+        "campaign_id": "CAMP_F1_SG_2026",
+        "campaign_source": null,
+        "user_id": "u_15538"
+      },
+      {
+        "order_number": "ORD2026090082",
+        "client_id": "c_5117",
+        "client_name": null,
+        "client_bd": "BD_A",
+        "client_op": null,
+        "client_belong_team": null,
+        "dida_hotel_id": 1001002,
+        "dida_hotel_name": "The Fullerton Hotel Singapore",
+        "dida_hotel_chain": "Global Chain",
+        "dida_hotel_star": "5",
+        "country_name": "Singapore",
+        "destination_name": "Singapore",
+        "room_name": "Deluxe Room",
+        "room_type": "Standard",
+        "bed_type": "King",
+        "board_type": "Breakfast",
+        "status": 1,
+        "check_in_date": "2026-09-20",
+        "check_out_date": "2026-09-22",
+        "room_night_count": 2,
+        "price_cny": 3936.66,
+        "net_rate_cny": 3346.16,
+        "combined_revenue_cny": 590.5,
+        "kpi_revenue_cny": 472.4,
+        "is_direct_contract": 0,
+        "lead_time_hour": 144,
+        "create_time": "2026-08-01 22:00:00.000000",
+        "confirm_time": "2026-08-02 00:00:00.000000",
+        "campaign_id": "CAMP_F1_SG_2026",
+        "campaign_source": null,
+        "user_id": "u_15566"
+      },
+      {
+        "order_number": "ORD2026090112",
+        "client_id": "c_5160",
+        "client_name": null,
+        "client_bd": "BD_A",
+        "client_op": null,
+        "client_belong_team": null,
+        "dida_hotel_id": 1001002,
+        "dida_hotel_name": "The Fullerton Hotel Singapore",
+        "dida_hotel_chain": "Global Chain",
+        "dida_hotel_star": "5",
+        "country_name": "Singapore",
+        "destination_name": "Singapore",
+        "room_name": "Deluxe Room",
+        "room_type": "Standard",
+        "bed_type": "King",
+        "board_type": "Breakfast",
+        "status": 1,
+        "check_in_date": "2026-09-18",
+        "check_out_date": "2026-09-21",
+        "room_night_count": 3,
+        "price_cny": 3501.87,
+        "net_rate_cny": 2976.59,
+        "combined_revenue_cny": 525.28,
+        "kpi_revenue_cny": 420.22,
+        "is_direct_contract": 0,
+        "lead_time_hour": 697,
+        "create_time": "2026-08-01 22:00:00.000000",
+        "confirm_time": "2026-08-02 00:00:00.000000",
+        "campaign_id": "CAMP_F1_SG_2026",
+        "campaign_source": null,
+        "user_id": "u_15609"
+      }
+    ]
+  }
+}

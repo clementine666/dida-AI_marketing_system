@@ -1,0 +1,12 @@
+key: manual_theme
+title: 标准活动 · 主题生成 Prompt
+owner: Jim
+status: placeholder
+description: LLM 仅负责 B/C 列文案（月度主主题、副活动主题），不参与 A/B/C 数值计算
+content: ''
+notes: |
+  Layer 3 · 表达层。输入为 Skill 生成的候选活动（单元、离店月、P75、数据依据）。
+  输出：月度主活动主题（B 列）、副活动主题（C 列）建议文案。
+  要求：结合节庆/旺季/目的地特色，30 字以内副主题，主主题体现当月整体叙事。
+updated_at: 2026-09-07 17:30
+updated_by: system

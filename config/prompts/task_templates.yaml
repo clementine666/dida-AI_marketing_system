@@ -1,0 +1,11 @@
+key: task_templates
+title: 任务配置模板（资源/素材/营销）
+owner: Jim + Rachel
+status: placeholder
+description: 任务名称、类型、T 节点、催办次数
+content: ""
+notes: |
+  待 Jim / Rachel 提供任务清单后填入 JSON 或 Markdown 表格。
+  示例维度：资源线 T-7（统一截止）/ 方案 T-3~T-1 / 素材 T-2~T-1、负责人、交付物。
+updated_at: null
+updated_by: null

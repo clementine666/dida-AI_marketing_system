@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>5-Agent 营销协作系统 — 界面预览</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --muted: #64748b;
+      --accent: #2563eb;
+      --accent-soft: #dbeafe;
+      --success: #059669;
+      --warning: #d97706;
+      --europe: #6366f1;
+      --asia: #ec4899;
+      --sea: #14b8a6;
+      --na: #f59e0b;
+      --global: #8b5cf6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .layout { display: grid; grid-template-columns: 240px 1fr; min-height: 100vh; }
+    .sidebar {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 20px 16px;
+    }
+    .sidebar h2 { font-size: 14px; color: #94a3b8; margin-bottom: 12px; text-transform: uppercase; letter-spacing: .05em; }
+    .nav-item {
+      padding: 10px 12px;
+      border-radius: 8px;
+      margin-bottom: 4px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .nav-item.active { background: #1e40af; color: #fff; }
+    .nav-item:not(.active):hover { background: #1e293b; }
+    .main { padding: 24px 28px; overflow: auto; }
+    .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; gap: 16px; flex-wrap: wrap; }
+    .header h1 { font-size: 22px; font-weight: 600; }
+    .header p { color: var(--muted); font-size: 13px; margin-top: 4px; }
+    .badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 6px 12px; border-radius: 999px; font-size: 12px; font-weight: 500;
+      background: var(--accent-soft); color: var(--accent);
+    }
+    .badge.mock { background: #fef3c7; color: var(--warning); }
+    .pipeline {
+      display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px;
+      padding: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    }
+    .agent {
+      flex: 1; min-width: 140px; padding: 12px; border-radius: 10px;
+      border: 1px solid var(--border); background: #fafbfc; text-align: center;
+    }
+    .agent .num { font-size: 11px; color: var(--muted); }
+    .agent .name { font-size: 13px; font-weight: 600; margin: 4px 0; }
+    .agent .role { font-size: 11px; color: var(--muted); }
+    .agent.active { border-color: var(--accent); background: var(--accent-soft); }
+    .grid-2 { display: grid; grid-template-columns: 1fr 360px; gap: 20px; }
+    @media (max-width: 960px) { .grid-2 { grid-template-columns: 1fr; } .layout { grid-template-columns: 1fr; } .sidebar { display: none; } }
+    .panel {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; overflow: hidden;
+    }
+    .panel-head {
+      padding: 14px 18px; border-bottom: 1px solid var(--border);
+      font-weight: 600; font-size: 14px; display: flex; justify-content: space-between; align-items: center;
+    }
+    .month-group { border-bottom: 1px solid var(--border); }
+    .month-group:last-child { border-bottom: none; }
+    .month-label {
+      padding: 10px 18px; background: #f8fafc; font-size: 13px; font-weight: 600;
+      color: var(--muted); display: flex; align-items: center; gap: 8px;
+    }
+    .month-label span { background: var(--accent); color: #fff; padding: 2px 8px; border-radius: 6px; font-size: 12px; }
+    .activity-row {
+      padding: 14px 18px; border-top: 1px solid #f1f5f9;
+      cursor: pointer; transition: background .15s;
+    }
+    .activity-row:hover, .activity-row.selected { background: #f0f7ff; }
+    .activity-row h4 { font-size: 14px; margin-bottom: 6px; }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px; font-size: 12px; color: var(--muted); }
+    .tag {
+      padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500;
+    }
+    .tag.europe { background: #eef2ff; color: var(--europe); }
+    .tag.asia { background: #fce7f3; color: var(--asia); }
+    .tag.sea { background: #ccfbf1; color: var(--sea); }
+    .tag.na { background: #fef3c7; color: var(--na); }
+    .tag.global { background: #ede9fe; color: var(--global); }
+    .detail { padding: 18px; }
+    .detail h3 { font-size: 16px; margin-bottom: 12px; }
+    .detail-section { margin-bottom: 16px; }
+    .detail-section label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; display: block; margin-bottom: 4px; }
+    .detail-section p { font-size: 13px; }
+    .status-bar {
+      display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px;
+    }
+    .status-step {
+      font-size: 11px; padding: 4px 8px; border-radius: 4px;
+      background: #f1f5f9; color: var(--muted);
+    }
+    .status-step.done { background: #d1fae5; color: var(--success); }
+    .status-step.current { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+    .actions { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+    button {
+      padding: 8px 14px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--surface); font-size: 13px; cursor: pointer;
+    }
+    button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+    button:hover { opacity: .9; }
+    .callout {
+      margin-top: 20px; padding: 14px 16px; border-radius: 10px;
+      background: #eff6ff; border: 1px solid #bfdbfe; font-size: 13px;
+    }
+    .callout strong { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h2>数据源</h2>
+      <div class="nav-item active">对内：旅游目的地营销日历</div>
+      <div class="nav-item">对外：旅游目的地营销日历</div>
+      <div class="nav-item">国际展会目的地营销日历</div>
+      <div class="nav-item">2026 国内节假日</div>
+      <div class="nav-item">2026 海外节假日</div>
+      <h2 style="margin-top:24px">系统模块</h2>
+      <div class="nav-item">Agent1 方案策划</div>
+      <div class="nav-item">Agent2 资源配置</div>
+      <div class="nav-item">Agent3 监控看板</div>
+      <div class="nav-item">Agent4 复盘报告</div>
+      <div class="nav-item">Agent5 活动档案</div>
+    </aside>
+
+    <main class="main">
+      <div class="header">
+        <div>
+          <h1>2026 营销日历 · 5-Agent 协作工作台</h1>
+          <p>飞书 Base → Agent1 丰富方案 → 人工确认 → Agent2~5 全链路执行</p>
+        </div>
+        <div class="badge mock" id="modeBadge">Mock 预览模式</div>
+      </div>
+
+      <div class="pipeline">
+        <div class="agent active"><div class="num">Agent 1</div><div class="name">方案策划师</div><div class="role">读飞书日历 + 行业情报</div></div>
+        <div class="agent"><div class="num">Agent 2</div><div class="name">资源配置师</div><div class="role">圈客 / 选品 / 待办</div></div>
+        <div class="agent"><div class="num">Agent 3</div><div class="name">监控专员</div><div class="role">看板 + 告警</div></div>
+        <div class="agent"><div class="num">Agent 4</div><div class="name">分析师</div><div class="role">复盘 + 飞书回写</div></div>
+        <div class="agent"><div class="num">Agent 5</div><div class="name">档案管理员</div><div class="role">结构化归档</div></div>
+      </div>
+
+      <div class="grid-2">
+        <section class="panel">
+          <div class="panel-head">
+            <span>营销日历（按推广月份）</span>
+            <span style="font-weight:400;color:var(--muted);font-size:12px" id="recordCount">8 条活动</span>
+          </div>
+          <div id="calendarList"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">活动方案详情</div>
+          <div class="detail" id="detailPanel">
+            <p style="color:var(--muted);font-size:13px">点击左侧活动查看 Agent1 丰富后的方案预览</p>
+          </div>
+        </section>
+      </div>
+
+      <div class="callout">
+        <strong>接入说明：</strong>
+        当前使用 Mock 数据（与飞书截图一致）。配置
+        <code>FEISHU_APP_ID</code>、<code>FEISHU_APP_SECRET</code>、
+        <code>FEISHU_MARKETING_CALENDAR_TABLE_ID</code> 后，系统自动切换为实时读取
+        <a href="https://didatravel.feishu.cn/base/GpYkbnH9ga8nMAs0GUQcCXoInXe" target="_blank">2026营销日历 Base</a>。
+        运行 <code>python scripts/feishu_list_tables.py</code> 获取 table_id。
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const REGION_CLASS = {
+      "欧洲EU": "europe", "北美": "na", "亚洲": "asia",
+      "东南亚": "sea", "全目的地": "global"
+    };
+
+    const CALENDAR = [
+      { id: "rec_cal_0301", name: "德法意瑞春季促销", month: "3月", time: "3月16日", region: "欧洲EU", areas: "德国、法国、意大利、瑞士" },
+      { id: "rec_cal_0302", name: "西葡春季促销", month: "3月", time: "3月16日", region: "欧洲EU", areas: "西班牙、葡萄牙" },
+      { id: "rec_cal_0303", name: "美国促销", month: "3月", time: "3月17日", region: "北美", areas: "美国" },
+      { id: "rec_cal_0304", name: "日本樱花季", month: "3月", time: "3月24日", region: "亚洲", areas: "日本" },
+      { id: "rec_cal_0305", name: "展会季", month: "3月", time: "3月17日", region: "全目的地", areas: "重点展会城市" },
+      { id: "rec_cal_0401", name: "东南亚专题", month: "4月", time: "4月8日", region: "东南亚", areas: "新加坡、马来西亚、泰国" },
+      { id: "rec_cal_0402", name: "五一促销", month: "4月", time: "4月14日", region: "全目的地", areas: "全目的地" },
+      { id: "rec_cal_0801", name: "新加坡F1赛事酒店预订", month: "8月", time: "8月1日", region: "东南亚", areas: "新加坡" },
+    ];
+
+    const grouped = CALENDAR.reduce((acc, item) => {
+      (acc[item.month] = acc[item.month] || []).push(item);
+      return acc;
+    }, {});
+
+    function enrichPlan(item) {
+      return {
+        demand: `${item.areas} 存在 B 端酒店预订需求，${item.time} 启动推广。`,
+        solution: `针对 ${item.areas} 推出 portal.dida.com 营销活动专区 + shopping 端 Banner + 定向客群触达。`,
+        steps: [
+          "Agent2 完成圈客与选品（warehouse MCP）",
+          "配置 Banner / 优惠券 / 短信",
+          "埋点与监控字段配置",
+          "测试通过后按时上线",
+          "Agent3 监控 → Agent4 复盘 → Agent5 归档"
+        ],
+        status: item.id === "rec_cal_0801" ? "plan_review" : "draft"
+      };
+    }
+
+    const STATUS_LABELS = {
+      draft: ["草稿", "方案待审", "—", "—", "—", "—"],
+      plan_review: ["草稿", "方案待审", "—", "—", "—", "—"]
+    };
+
+    function renderList() {
+      const el = document.getElementById("calendarList");
+      el.innerHTML = Object.entries(grouped).map(([month, items]) => `
+        <div class="month-group">
+          <div class="month-label"><span>${month}</span> ${items.length} 个活动</div>
+          ${items.map(item => `
+            <div class="activity-row" data-id="${item.id}">
+              <h4>${item.name}</h4>
+              <div class="meta">
+                <span class="tag ${REGION_CLASS[item.region] || 'global'}">${item.region}</span>
+                <span>${item.time}</span>
+                <span>${item.areas}</span>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      `).join("");
+
+      el.querySelectorAll(".activity-row").forEach(row => {
+        row.addEventListener("click", () => selectActivity(row.dataset.id));
+      });
+    }
+
+    function selectActivity(id) {
+      document.querySelectorAll(".activity-row").forEach(r => r.classList.toggle("selected", r.dataset.id === id));
+      const item = CALENDAR.find(c => c.id === id);
+      const plan = enrichPlan(item);
+      const steps = ["飞书同步", "Agent1 方案", "人工确认", "Agent2 配置", "测试上线", "监控复盘"];
+      const statusIdx = plan.status === "plan_review" ? 1 : 0;
+
+      document.getElementById("detailPanel").innerHTML = `
+        <h3>${item.name}</h3>
+        <div class="detail-section"><label>推广时间</label><p>${item.time}（${item.month}）</p></div>
+        <div class="detail-section"><label>目的地</label><p>${item.region} · ${item.areas}</p></div>
+        <div class="detail-section"><label>需求分析（Agent1 生成）</label><p>${plan.demand}</p></div>
+        <div class="detail-section"><label>方案分析</label><p>${plan.solution}</p></div>
+        <div class="detail-section"><label>执行步骤</label><p>${plan.steps.map((s,i)=>`${i+1}. ${s}`).join("<br>")}</p></div>
+        <div class="status-bar">
+          ${steps.map((s,i)=>`<span class="status-step ${i<statusIdx?'done':''} ${i===statusIdx?'current':''}">${s}</span>`).join("")}
+        </div>
+        <div class="actions">
+          <button class="primary">确认发送 Agent2</button>
+          <button>编辑方案</button>
+          <button>查看飞书原记录</button>
+        </div>
+      `;
+    }
+
+    renderList();
+    selectActivity("rec_cal_0801");
+  </script>
+</body>
+</html>

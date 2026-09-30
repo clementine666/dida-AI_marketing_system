@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>道旅营销协作系统</title>
+  <link rel="stylesheet" href="/ui/dashboard/styles.css?v=20260929portal116" />
+</head>
+<body>
+  <div class="app">
+    <header class="portal-header">
+      <div class="portal-logo">AI营销系统</div>
+      <nav class="portal-nav">
+        <button class="portal-nav-item nav-item active" data-view="project-overview">首页</button>
+        <button class="portal-nav-item nav-item" data-view="calendar-portal">营销日历</button>
+        <button class="portal-nav-item nav-item" data-view="promotion">Promotion酒店促销</button>
+        <button class="portal-nav-item nav-item" data-view="tps-placeholder">TPS资源营销</button>
+        <button class="portal-nav-item nav-item" data-view="dc-placeholder">DC上新宣发</button>
+      </nav>
+      <div class="portal-actions">
+        <div class="portal-search"><input id="portal-search-input" placeholder="搜索活动、酒店或任务" /><button onclick="App.portalSearch()">⌕</button></div>
+        <button class="portal-icon portal-settings" title="设置" onclick="App.navigate('system-config')">⚙</button>
+        <div class="portal-user" tabindex="0"><span class="user-avatar">潘</span><span>潘永如</span><span>⌄</span><div class="user-menu"><button onclick="App.logoutDemo()">退出登录</button></div></div>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <h1>营销全链路 AI 自动化</h1>
+        <p>总项目 · 子项目一营销日历 · 6-Agent</p>
+      </div>
+
+      <div class="nav-section">项目</div>
+      <button class="nav-item active" data-view="project-overview"><span class="agent-num">◆</span> 项目总览</button>
+      <button class="nav-item" data-view="promotion"><span class="agent-num">P</span> 高请求低转化 Promotion</button>
+
+      <div class="nav-section">营销日历主流程</div>
+      <button class="nav-item" data-view="agent1">活动生成与评审 <span class="badge" id="badge-agent1">—</span></button>
+      <button class="nav-item" data-view="agent2">活动建档</button>
+      <button class="nav-item" data-view="agent3">任务监督 <small>含强化营销任务</small></button>
+      <button class="nav-item" data-view="agent4">上线审核</button>
+      <button class="nav-item" data-view="agent5">监控与复盘</button>
+      <button class="nav-item" data-view="agent6">复盘归档</button>
+
+      <div class="sidebar-footer">
+        <div class="nav-section">辅助</div>
+        <button class="nav-item" data-view="sop-map"><span class="agent-num">◎</span> 流程对照</button>
+        <button class="nav-item" data-view="calendar-upload"><span class="agent-num">📅</span> 日历预览</button>
+        <button class="nav-item" data-view="intel-hub"><span class="agent-num">🔍</span> 情报输入</button>
+        <button class="nav-item" data-view="system-config"><span class="agent-num">⚙</span> 系统设置</button>
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="topbar portal-contextbar">
+        <div>
+          <h2 id="page-title">系统首页</h2>
+          <div class="sub" id="page-sub">营销师工作台 · 开发版</div>
+        </div>
+        <div class="topbar-spacer"></div>
+        <div class="status-pill warn" id="mcp-status-pill">
+          <span class="status-dot"></span> 数仓 Mock
+        </div>
+        <div class="status-pill" id="feishu-status-pill">
+          <span class="status-dot"></span> 飞书 Mock
+        </div>
+        <button class="btn btn-sm btn-ghost" onclick="App.openFeedbackModal()" title="遇到问题？提交反馈给后台处理">反馈问题</button>
+        <button class="btn btn-sm" onclick="App.refresh()">刷新数据</button>
+      </header>
+
+      <div class="content" id="main-content">
+        <!-- 动态渲染 -->
+      </div>
+    </div>
+  </div>
+
+  <div id="quick-tools" class="quick-tools" title="拖动工具按钮">
+    <button class="quick-pencil" aria-label="快捷工具">✎</button>
+    <div class="quick-actions">
+      <button class="btn btn-sm" onclick="App.refresh()">刷新数据</button>
+      <button class="btn btn-sm" onclick="App.openFeedbackModal()">反馈问题</button>
+    </div>
+  </div>
+
+  <div id="login-gate" class="login-gate">
+    <div class="login-card">
+      <div class="login-brand">AI营销系统</div>
+      <p>营销全链路自动化工作台</p>
+      <input id="login-user" placeholder="账号 / 邮箱" value="demo@dida.com" />
+      <input id="login-password" type="password" placeholder="密码" value="demo" />
+      <button class="btn btn-primary btn-block" onclick="App.loginDemo()">登录</button>
+      <button class="login-register" onclick="App.registerDemo()">注册账号</button>
+    </div>
+  </div>
+
+  <div id="feedback-modal" class="modal-overlay" style="display:none" onclick="if(event.target===this)App.closeFeedbackModal()">
+    <div class="modal-card">
+      <div class="modal-head">反馈问题 <button class="modal-close" onclick="App.closeFeedbackModal()">×</button></div>
+      <div class="modal-body">
+        <p class="cfg-desc">描述您遇到的问题，后台会结合操作上下文和系统日志排查并修复。提交后会生成工单号。</p>
+        <div class="form-row">
+          <div class="form-group"><label>您的姓名 <span class="req">*</span></label>
+            <input id="fb-reporter" placeholder="如：张三" /></div>
+          <div class="form-group"><label>紧急程度</label>
+            <select id="fb-severity">
+              <option value="normal">一般</option>
+              <option value="high">较急</option>
+              <option value="urgent">紧急（影响工作）</option>
+            </select></div>
+        </div>
+        <div class="form-group"><label>问题标题 <span class="req">*</span></label>
+          <input id="fb-title" placeholder="如：标准活动规划生成后评审池看不到" /></div>
+        <div class="form-group"><label>具体问题</label>
+          <textarea id="fb-desc" rows="4" placeholder="做了什么操作？看到了什么？"></textarea></div>
+        <div class="form-group"><label>期望结果</label>
+          <textarea id="fb-expected" rows="2" placeholder="您希望系统应该怎样？"></textarea></div>
+        <div class="callout" id="fb-context-hint" style="font-size:12px">将自动附带：当前页面、环节、最近报错信息</div>
+      </div>
+      <div class="modal-foot">
+        <button class="btn" onclick="App.closeFeedbackModal()">取消</button>
+        <button class="btn btn-primary" onclick="App.submitFeedback()">提交反馈</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/ui/dashboard/agent1_fields.js?v=20260910c"></script>
+  <script src="/ui/dashboard/agent2_fields.js?v=20260910i"></script>
+  <script src="/ui/dashboard/app.js?v=20260929portal116"></script>
+  <script>
+    App.loginDemo = function(){ const u=document.getElementById('login-user').value.trim(); if(!u){alert('请输入账号');return;} localStorage.setItem('ai_marketing_logged_in','1'); document.getElementById('login-gate').classList.add('hidden'); };
+    App.registerDemo = function(){ alert('Demo 注册入口：后续可接入企业账号或统一身份认证。'); };
+    App.logoutDemo = function(){ localStorage.removeItem('ai_marketing_logged_in'); document.getElementById('login-gate').classList.remove('hidden'); };
+    App.portalSearch = function(){ const q=document.getElementById('portal-search-input').value.trim(); if(q) alert('Demo 搜索：'+q); };
+    (function(){ const tool=document.getElementById('quick-tools'); const handle=tool?.querySelector('.quick-pencil'); if(!tool||!handle)return; let drag=false,dx=0,dy=0; handle.addEventListener('pointerdown',e=>{drag=true;dx=e.clientX-tool.offsetLeft;dy=e.clientY-tool.offsetTop;handle.setPointerCapture(e.pointerId);tool.classList.add('dragging');}); handle.addEventListener('pointermove',e=>{if(!drag)return; tool.style.left=Math.max(6,Math.min(window.innerWidth-58,e.clientX-dx))+'px'; tool.style.top=Math.max(70,Math.min(window.innerHeight-58,e.clientY-dy))+'px'; tool.style.right='auto'; tool.style.bottom='auto';}); handle.addEventListener('pointerup',()=>{drag=false;tool.classList.remove('dragging');}); })();
+    document.addEventListener('DOMContentLoaded',()=>{ if(localStorage.getItem('ai_marketing_logged_in')) document.getElementById('login-gate').classList.add('hidden'); });
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,1892 @@
+[
+  {
+    "analysis_unit": "西欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 48896004.41,
+    "month_share": 0.15316064567002516,
+    "month_rank": 1,
+    "p75_days": 38.9,
+    "annual_p75": 33.7,
+    "countries": [
+      "列支敦士登",
+      "卢森堡",
+      "奥地利",
+      "德国",
+      "摩纳哥",
+      "比利时",
+      "法国",
+      "爱尔兰",
+      "瑞士",
+      "英国",
+      "荷兰"
+    ],
+    "evidence": "2026年07月西欧离店TTV=48.9M，占全年15.3%（排名第1）；目标月P75=39天"
+  },
+  {
+    "analysis_unit": "西欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 42952696.81,
+    "month_share": 0.13454397462674866,
+    "month_rank": 2,
+    "p75_days": 39.6,
+    "annual_p75": 33.7,
+    "countries": [
+      "列支敦士登",
+      "卢森堡",
+      "奥地利",
+      "德国",
+      "摩纳哥",
+      "比利时",
+      "法国",
+      "爱尔兰",
+      "瑞士",
+      "英国",
+      "荷兰"
+    ],
+    "evidence": "2025年08月西欧离店TTV=43.0M，占全年13.5%（排名第2）；目标月P75=40天"
+  },
+  {
+    "analysis_unit": "西欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-09",
+    "month_ttv": 41552681.17,
+    "month_share": 0.13015859995333917,
+    "month_rank": 3,
+    "p75_days": 32.6,
+    "annual_p75": 33.7,
+    "countries": [
+      "列支敦士登",
+      "卢森堡",
+      "奥地利",
+      "德国",
+      "摩纳哥",
+      "比利时",
+      "法国",
+      "爱尔兰",
+      "瑞士",
+      "英国",
+      "荷兰"
+    ],
+    "evidence": "2025年09月西欧离店TTV=41.6M，占全年13.0%（排名第3）；目标月P75=33天"
+  },
+  {
+    "analysis_unit": "南欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 25580740.9,
+    "month_share": 0.13311342966289083,
+    "month_rank": 1,
+    "p75_days": 43.1,
+    "annual_p75": 42.0,
+    "countries": [
+      "克罗地亚",
+      "圣马力诺",
+      "塞尔维亚",
+      "安道尔",
+      "希腊",
+      "意大利",
+      "斯洛文尼亚",
+      "波斯尼亚和黑塞哥维那",
+      "直布罗陀",
+      "葡萄牙",
+      "西班牙",
+      "门的内哥罗",
+      "阿尔巴尼亚",
+      "马其顿",
+      "马耳他"
+    ],
+    "evidence": "2026年07月南欧离店TTV=25.6M，占全年13.3%（排名第1）；目标月P75=43天"
+  },
+  {
+    "analysis_unit": "南欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 24144594.93,
+    "month_share": 0.12564021704912956,
+    "month_rank": 2,
+    "p75_days": 47.3,
+    "annual_p75": 42.0,
+    "countries": [
+      "克罗地亚",
+      "圣马力诺",
+      "塞尔维亚",
+      "安道尔",
+      "希腊",
+      "意大利",
+      "斯洛文尼亚",
+      "波斯尼亚和黑塞哥维那",
+      "直布罗陀",
+      "葡萄牙",
+      "西班牙",
+      "门的内哥罗",
+      "阿尔巴尼亚",
+      "马其顿",
+      "马耳他"
+    ],
+    "evidence": "2025年10月南欧离店TTV=24.1M，占全年12.6%（排名第2）；目标月P75=47天"
+  },
+  {
+    "analysis_unit": "南欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-06",
+    "month_ttv": 21883213.62,
+    "month_share": 0.11387276187156428,
+    "month_rank": 3,
+    "p75_days": 41.8,
+    "annual_p75": 42.0,
+    "countries": [
+      "克罗地亚",
+      "圣马力诺",
+      "塞尔维亚",
+      "安道尔",
+      "希腊",
+      "意大利",
+      "斯洛文尼亚",
+      "波斯尼亚和黑塞哥维那",
+      "直布罗陀",
+      "葡萄牙",
+      "西班牙",
+      "门的内哥罗",
+      "阿尔巴尼亚",
+      "马其顿",
+      "马耳他"
+    ],
+    "evidence": "2026年06月南欧离店TTV=21.9M，占全年11.4%（排名第3）；目标月P75=42天"
+  },
+  {
+    "analysis_unit": "北欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 11393950.7,
+    "month_share": 0.14469354103933726,
+    "month_rank": 1,
+    "p75_days": 48.5,
+    "annual_p75": 48.7,
+    "countries": [
+      "丹麦",
+      "冰岛",
+      "拉脱维亚",
+      "挪威",
+      "斯瓦尔巴特群岛",
+      "格陵兰",
+      "法罗群岛",
+      "爱沙尼亚",
+      "瑞典",
+      "芬兰"
+    ],
+    "evidence": "2026年02月北欧离店TTV=11.4M，占全年14.5%（排名第1）；目标月P75=48天"
+  },
+  {
+    "analysis_unit": "北欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 10346926.530000001,
+    "month_share": 0.13139721927176348,
+    "month_rank": 2,
+    "p75_days": 60.2,
+    "annual_p75": 48.7,
+    "countries": [
+      "丹麦",
+      "冰岛",
+      "拉脱维亚",
+      "挪威",
+      "斯瓦尔巴特群岛",
+      "格陵兰",
+      "法罗群岛",
+      "爱沙尼亚",
+      "瑞典",
+      "芬兰"
+    ],
+    "evidence": "2026年07月北欧离店TTV=10.3M，占全年13.1%（排名第2）；目标月P75=60天"
+  },
+  {
+    "analysis_unit": "北欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 9532093.98,
+    "month_share": 0.12104953477514607,
+    "month_rank": 3,
+    "p75_days": 61.5,
+    "annual_p75": 48.7,
+    "countries": [
+      "丹麦",
+      "冰岛",
+      "拉脱维亚",
+      "挪威",
+      "斯瓦尔巴特群岛",
+      "格陵兰",
+      "法罗群岛",
+      "爱沙尼亚",
+      "瑞典",
+      "芬兰"
+    ],
+    "evidence": "2025年08月北欧离店TTV=9.5M，占全年12.1%（排名第3）；目标月P75=62天"
+  },
+  {
+    "analysis_unit": "东欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 2397851.79,
+    "month_share": 0.14237580147308107,
+    "month_rank": 1,
+    "p75_days": 41.6,
+    "annual_p75": 33.2,
+    "countries": [
+      "保加利亚",
+      "匈牙利",
+      "捷克",
+      "摩尔多瓦",
+      "斯洛伐克",
+      "波兰",
+      "白俄罗斯",
+      "立陶宛",
+      "罗马尼亚"
+    ],
+    "evidence": "2025年10月东欧离店TTV=2.4M，占全年14.2%（排名第1）；目标月P75=42天"
+  },
+  {
+    "analysis_unit": "东欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-09",
+    "month_ttv": 2277923.19,
+    "month_share": 0.13525487322565816,
+    "month_rank": 2,
+    "p75_days": 31.5,
+    "annual_p75": 33.2,
+    "countries": [
+      "保加利亚",
+      "匈牙利",
+      "捷克",
+      "摩尔多瓦",
+      "斯洛伐克",
+      "波兰",
+      "白俄罗斯",
+      "立陶宛",
+      "罗马尼亚"
+    ],
+    "evidence": "2025年09月东欧离店TTV=2.3M，占全年13.5%（排名第2）；目标月P75=32天"
+  },
+  {
+    "analysis_unit": "东欧",
+    "continent": "欧洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-05",
+    "month_ttv": 2221993.4899999998,
+    "month_share": 0.13193396911604718,
+    "month_rank": 3,
+    "p75_days": 36.3,
+    "annual_p75": 33.2,
+    "countries": [
+      "保加利亚",
+      "匈牙利",
+      "捷克",
+      "摩尔多瓦",
+      "斯洛伐克",
+      "波兰",
+      "白俄罗斯",
+      "立陶宛",
+      "罗马尼亚"
+    ],
+    "evidence": "2026年05月东欧离店TTV=2.2M，占全年13.2%（排名第3）；目标月P75=36天"
+  },
+  {
+    "analysis_unit": "日本",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 39369307.48,
+    "month_share": 0.1885527722078724,
+    "month_rank": 1,
+    "p75_days": 32.0,
+    "annual_p75": 48.3,
+    "countries": [
+      "日本"
+    ],
+    "evidence": "2025年08月日本离店TTV=39.4M，占全年18.9%（排名第1）；目标月P75=32天"
+  },
+  {
+    "analysis_unit": "日本",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 28033362.19,
+    "month_share": 0.1342611413197216,
+    "month_rank": 2,
+    "p75_days": 51.0,
+    "annual_p75": 48.3,
+    "countries": [
+      "日本"
+    ],
+    "evidence": "2025年10月日本离店TTV=28.0M，占全年13.4%（排名第2）；目标月P75=51天"
+  },
+  {
+    "analysis_unit": "日本",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-11",
+    "month_ttv": 20040567.39,
+    "month_share": 0.09598097553335948,
+    "month_rank": 3,
+    "p75_days": 51.0,
+    "annual_p75": 48.3,
+    "countries": [
+      "日本"
+    ],
+    "evidence": "2025年11月日本离店TTV=20.0M，占全年9.6%（排名第3）；目标月P75=51天"
+  },
+  {
+    "analysis_unit": "港澳台",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 12560347.29,
+    "month_share": 0.12585892981447355,
+    "month_rank": 1,
+    "p75_days": 23.8,
+    "annual_p75": 14.1,
+    "countries": [
+      "中国台湾",
+      "中国澳门",
+      "中国香港"
+    ],
+    "evidence": "2026年02月港澳台离店TTV=12.6M，占全年12.6%（排名第1）；目标月P75=24天"
+  },
+  {
+    "analysis_unit": "港澳台",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 10422777.77,
+    "month_share": 0.10443975994761567,
+    "month_rank": 2,
+    "p75_days": 12.0,
+    "annual_p75": 14.1,
+    "countries": [
+      "中国台湾",
+      "中国澳门",
+      "中国香港"
+    ],
+    "evidence": "2025年08月港澳台离店TTV=10.4M，占全年10.4%（排名第2）；目标月P75=12天"
+  },
+  {
+    "analysis_unit": "港澳台",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-01",
+    "month_ttv": 9254267.799999999,
+    "month_share": 0.09273089466657115,
+    "month_rank": 3,
+    "p75_days": 12.8,
+    "annual_p75": 14.1,
+    "countries": [
+      "中国台湾",
+      "中国澳门",
+      "中国香港"
+    ],
+    "evidence": "2026年01月港澳台离店TTV=9.3M，占全年9.3%（排名第3）；目标月P75=13天"
+  },
+  {
+    "analysis_unit": "中国",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 8803764.13,
+    "month_share": 0.13865266241330873,
+    "month_rank": 1,
+    "p75_days": 15.0,
+    "annual_p75": 14.8,
+    "countries": [
+      "中国"
+    ],
+    "evidence": "2025年08月中国离店TTV=8.8M，占全年13.9%（排名第1）；目标月P75=15天"
+  },
+  {
+    "analysis_unit": "中国",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-11",
+    "month_ttv": 6299605.92,
+    "month_share": 0.0992140543595687,
+    "month_rank": 2,
+    "p75_days": 20.0,
+    "annual_p75": 14.8,
+    "countries": [
+      "中国"
+    ],
+    "evidence": "2025年11月中国离店TTV=6.3M，占全年9.9%（排名第2）；目标月P75=20天"
+  },
+  {
+    "analysis_unit": "中国",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 5977476.3,
+    "month_share": 0.09414075516667138,
+    "month_rank": 3,
+    "p75_days": 17.0,
+    "annual_p75": 14.8,
+    "countries": [
+      "中国"
+    ],
+    "evidence": "2025年10月中国离店TTV=6.0M，占全年9.4%（排名第3）；目标月P75=17天"
+  },
+  {
+    "analysis_unit": "韩国",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 6440915.2,
+    "month_share": 0.16471381453988132,
+    "month_rank": 1,
+    "p75_days": 33.0,
+    "annual_p75": 37.6,
+    "countries": [
+      "韩国"
+    ],
+    "evidence": "2026年07月韩国离店TTV=6.4M，占全年16.5%（排名第1）；目标月P75=33天"
+  },
+  {
+    "analysis_unit": "韩国",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-05",
+    "month_ttv": 4547335.55,
+    "month_share": 0.11628921685435467,
+    "month_rank": 2,
+    "p75_days": 61.0,
+    "annual_p75": 37.6,
+    "countries": [
+      "韩国"
+    ],
+    "evidence": "2026年05月韩国离店TTV=4.5M，占全年11.6%（排名第2）；目标月P75=61天"
+  },
+  {
+    "analysis_unit": "韩国",
+    "continent": "亚洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 4050564.0,
+    "month_share": 0.10358525562918758,
+    "month_rank": 3,
+    "p75_days": 25.0,
+    "annual_p75": 37.6,
+    "countries": [
+      "韩国"
+    ],
+    "evidence": "2025年08月韩国离店TTV=4.1M，占全年10.4%（排名第3）；目标月P75=25天"
+  },
+  {
+    "analysis_unit": "哈萨克斯坦",
+    "continent": "亚洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-04",
+    "month_ttv": 391065.0,
+    "month_share": 0.13867592532177397,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "哈萨克斯坦"
+    ],
+    "evidence": "2026年04月哈萨克斯坦离店TTV=0.4M，占全年13.9%（排名第1）"
+  },
+  {
+    "analysis_unit": "哈萨克斯坦",
+    "continent": "亚洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-11",
+    "month_ttv": 385608.0,
+    "month_share": 0.13674081344911618,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "哈萨克斯坦"
+    ],
+    "evidence": "2025年11月哈萨克斯坦离店TTV=0.4M，占全年13.7%（排名第2）"
+  },
+  {
+    "analysis_unit": "哈萨克斯坦",
+    "continent": "亚洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-05",
+    "month_ttv": 324205.0,
+    "month_share": 0.11496663820322894,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "哈萨克斯坦"
+    ],
+    "evidence": "2026年05月哈萨克斯坦离店TTV=0.3M，占全年11.5%（排名第3）"
+  },
+  {
+    "analysis_unit": "新加坡",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 14203174.0,
+    "month_share": 0.20543757541652916,
+    "month_rank": 1,
+    "p75_days": 42.0,
+    "annual_p75": 26.8,
+    "countries": [
+      "新加坡"
+    ],
+    "evidence": "2026年02月新加坡离店TTV=14.2M，占全年20.5%（排名第1）；目标月P75=42天"
+  },
+  {
+    "analysis_unit": "新加坡",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 12331922.91,
+    "month_share": 0.17837142196905767,
+    "month_rank": 2,
+    "p75_days": 25.0,
+    "annual_p75": 26.8,
+    "countries": [
+      "新加坡"
+    ],
+    "evidence": "2025年08月新加坡离店TTV=12.3M，占全年17.8%（排名第2）；目标月P75=25天"
+  },
+  {
+    "analysis_unit": "新加坡",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 9928841.49,
+    "month_share": 0.14361276728713165,
+    "month_rank": 3,
+    "p75_days": 27.0,
+    "annual_p75": 26.8,
+    "countries": [
+      "新加坡"
+    ],
+    "evidence": "2026年07月新加坡离店TTV=9.9M，占全年14.4%（排名第3）；目标月P75=27天"
+  },
+  {
+    "analysis_unit": "泰国",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 17579899.09,
+    "month_share": 0.2814561303902992,
+    "month_rank": 1,
+    "p75_days": 56.0,
+    "annual_p75": 28.7,
+    "countries": [
+      "泰国"
+    ],
+    "evidence": "2026年02月泰国离店TTV=17.6M，占全年28.1%（排名第1）；目标月P75=56天"
+  },
+  {
+    "analysis_unit": "泰国",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-01",
+    "month_ttv": 5380675.01,
+    "month_share": 0.08614520250937256,
+    "month_rank": 2,
+    "p75_days": 28.0,
+    "annual_p75": 28.7,
+    "countries": [
+      "泰国"
+    ],
+    "evidence": "2026年01月泰国离店TTV=5.4M，占全年8.6%（排名第2）；目标月P75=28天"
+  },
+  {
+    "analysis_unit": "泰国",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 4954363.36,
+    "month_share": 0.07931990580345709,
+    "month_rank": 3,
+    "p75_days": 26.0,
+    "annual_p75": 28.7,
+    "countries": [
+      "泰国"
+    ],
+    "evidence": "2025年10月泰国离店TTV=5.0M，占全年7.9%（排名第3）；目标月P75=26天"
+  },
+  {
+    "analysis_unit": "马来西亚",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 11315558.25,
+    "month_share": 0.2077061561246763,
+    "month_rank": 1,
+    "p75_days": 44.0,
+    "annual_p75": 28.0,
+    "countries": [
+      "马来西亚"
+    ],
+    "evidence": "2026年02月马来西亚离店TTV=11.3M，占全年20.8%（排名第1）；目标月P75=44天"
+  },
+  {
+    "analysis_unit": "马来西亚",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 8125384.0,
+    "month_share": 0.14914794660501587,
+    "month_rank": 2,
+    "p75_days": 28.0,
+    "annual_p75": 28.0,
+    "countries": [
+      "马来西亚"
+    ],
+    "evidence": "2025年08月马来西亚离店TTV=8.1M，占全年14.9%（排名第2）；目标月P75=28天"
+  },
+  {
+    "analysis_unit": "马来西亚",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 6683075.7,
+    "month_share": 0.1226732198331647,
+    "month_rank": 3,
+    "p75_days": 26.0,
+    "annual_p75": 28.0,
+    "countries": [
+      "马来西亚"
+    ],
+    "evidence": "2026年07月马来西亚离店TTV=6.7M，占全年12.3%（排名第3）；目标月P75=26天"
+  },
+  {
+    "analysis_unit": "印度尼西亚",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 4481982.98,
+    "month_share": 0.152742253865371,
+    "month_rank": 1,
+    "p75_days": 28.0,
+    "annual_p75": 26.1,
+    "countries": [
+      "印度尼西亚"
+    ],
+    "evidence": "2026年07月印度尼西亚离店TTV=4.5M，占全年15.3%（排名第1）；目标月P75=28天"
+  },
+  {
+    "analysis_unit": "印度尼西亚",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 4387670.07,
+    "month_share": 0.14952814829953462,
+    "month_rank": 2,
+    "p75_days": 40.0,
+    "annual_p75": 26.1,
+    "countries": [
+      "印度尼西亚"
+    ],
+    "evidence": "2026年02月印度尼西亚离店TTV=4.4M，占全年15.0%（排名第2）；目标月P75=40天"
+  },
+  {
+    "analysis_unit": "印度尼西亚",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 3858988.01,
+    "month_share": 0.1315111032141498,
+    "month_rank": 3,
+    "p75_days": 26.0,
+    "annual_p75": 26.1,
+    "countries": [
+      "印度尼西亚"
+    ],
+    "evidence": "2025年08月印度尼西亚离店TTV=3.9M，占全年13.2%（排名第3）；目标月P75=26天"
+  },
+  {
+    "analysis_unit": "越南",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 6120817.0,
+    "month_share": 0.2271593644241891,
+    "month_rank": 1,
+    "p75_days": 50.0,
+    "annual_p75": 18.1,
+    "countries": [
+      "越南"
+    ],
+    "evidence": "2026年02月越南离店TTV=6.1M，占全年22.7%（排名第1）；目标月P75=50天"
+  },
+  {
+    "analysis_unit": "越南",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 2573666.82,
+    "month_share": 0.09551543839177415,
+    "month_rank": 2,
+    "p75_days": 23.0,
+    "annual_p75": 18.1,
+    "countries": [
+      "越南"
+    ],
+    "evidence": "2026年07月越南离店TTV=2.6M，占全年9.6%（排名第2）；目标月P75=23天"
+  },
+  {
+    "analysis_unit": "越南",
+    "continent": "东南亚",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-05",
+    "month_ttv": 2440027.68,
+    "month_share": 0.09055574394173665,
+    "month_rank": 3,
+    "p75_days": 15.0,
+    "annual_p75": 18.1,
+    "countries": [
+      "越南"
+    ],
+    "evidence": "2026年05月越南离店TTV=2.4M，占全年9.1%（排名第3）；目标月P75=15天"
+  },
+  {
+    "analysis_unit": "美加",
+    "continent": "北美洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 26684759.74,
+    "month_share": 0.15323248423034014,
+    "month_rank": 1,
+    "p75_days": 32.9,
+    "annual_p75": 27.9,
+    "countries": [
+      "加拿大",
+      "美国"
+    ],
+    "evidence": "2026年07月美加离店TTV=26.7M，占全年15.3%（排名第1）；目标月P75=33天"
+  },
+  {
+    "analysis_unit": "美加",
+    "continent": "北美洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 17528936.599999998,
+    "month_share": 0.10065679913572015,
+    "month_rank": 2,
+    "p75_days": 28.5,
+    "annual_p75": 27.9,
+    "countries": [
+      "加拿大",
+      "美国"
+    ],
+    "evidence": "2025年08月美加离店TTV=17.5M，占全年10.1%（排名第2）；目标月P75=28天"
+  },
+  {
+    "analysis_unit": "美加",
+    "continent": "北美洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-05",
+    "month_ttv": 17219778.89,
+    "month_share": 0.09888151600093324,
+    "month_rank": 3,
+    "p75_days": 30.3,
+    "annual_p75": 27.9,
+    "countries": [
+      "加拿大",
+      "美国"
+    ],
+    "evidence": "2026年05月美加离店TTV=17.2M，占全年9.9%（排名第3）；目标月P75=30天"
+  },
+  {
+    "analysis_unit": "墨西哥",
+    "continent": "北美洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-12",
+    "month_ttv": 6432780.83,
+    "month_share": 0.1793184393445337,
+    "month_rank": 1,
+    "p75_days": 68.0,
+    "annual_p75": 44.3,
+    "countries": [
+      "墨西哥"
+    ],
+    "evidence": "2025年12月墨西哥离店TTV=6.4M，占全年17.9%（排名第1）；目标月P75=68天"
+  },
+  {
+    "analysis_unit": "墨西哥",
+    "continent": "北美洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 5909868.93,
+    "month_share": 0.1647418902127199,
+    "month_rank": 2,
+    "p75_days": 50.0,
+    "annual_p75": 44.3,
+    "countries": [
+      "墨西哥"
+    ],
+    "evidence": "2026年03月墨西哥离店TTV=5.9M，占全年16.5%（排名第2）；目标月P75=50天"
+  },
+  {
+    "analysis_unit": "墨西哥",
+    "continent": "北美洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-11",
+    "month_ttv": 4528844.1,
+    "month_share": 0.12624481969902576,
+    "month_rank": 3,
+    "p75_days": 72.0,
+    "annual_p75": 44.3,
+    "countries": [
+      "墨西哥"
+    ],
+    "evidence": "2025年11月墨西哥离店TTV=4.5M，占全年12.6%（排名第3）；目标月P75=72天"
+  },
+  {
+    "analysis_unit": "多米尼加共和国",
+    "continent": "北美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-12",
+    "month_ttv": 287474.04,
+    "month_share": 0.22335660155279097,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "多米尼加共和国"
+    ],
+    "evidence": "2025年12月多米尼加共和国离店TTV=0.3M，占全年22.3%（排名第1）"
+  },
+  {
+    "analysis_unit": "多米尼加共和国",
+    "continent": "北美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-01",
+    "month_ttv": 177175.0,
+    "month_share": 0.13765836344775947,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "多米尼加共和国"
+    ],
+    "evidence": "2026年01月多米尼加共和国离店TTV=0.2M，占全年13.8%（排名第2）"
+  },
+  {
+    "analysis_unit": "多米尼加共和国",
+    "continent": "北美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 167396.83,
+    "month_share": 0.13006109024491494,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "多米尼加共和国"
+    ],
+    "evidence": "2026年03月多米尼加共和国离店TTV=0.2M，占全年13.0%（排名第3）"
+  },
+  {
+    "analysis_unit": "巴哈马",
+    "continent": "北美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 295674.5,
+    "month_share": 0.32007393100565934,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "巴哈马"
+    ],
+    "evidence": "2026年03月巴哈马离店TTV=0.3M，占全年32.0%（排名第1）"
+  },
+  {
+    "analysis_unit": "巴哈马",
+    "continent": "北美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-11",
+    "month_ttv": 157845.0,
+    "month_share": 0.17087056759912778,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "巴哈马"
+    ],
+    "evidence": "2025年11月巴哈马离店TTV=0.2M，占全年17.1%（排名第2）"
+  },
+  {
+    "analysis_unit": "巴哈马",
+    "continent": "北美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-12",
+    "month_ttv": 154901.75,
+    "month_share": 0.16768443691341625,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "巴哈马"
+    ],
+    "evidence": "2025年12月巴哈马离店TTV=0.2M，占全年16.8%（排名第3）"
+  },
+  {
+    "analysis_unit": "波多黎各",
+    "continent": "北美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 303901.26,
+    "month_share": 0.39803407346146125,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "波多黎各"
+    ],
+    "evidence": "2026年03月波多黎各离店TTV=0.3M，占全年39.8%（排名第1）"
+  },
+  {
+    "analysis_unit": "波多黎各",
+    "continent": "北美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-04",
+    "month_ttv": 206401.0,
+    "month_share": 0.2703333010087522,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "波多黎各"
+    ],
+    "evidence": "2026年04月波多黎各离店TTV=0.2M，占全年27.0%（排名第2）"
+  },
+  {
+    "analysis_unit": "波多黎各",
+    "continent": "北美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-05",
+    "month_ttv": 70247.0,
+    "month_share": 0.09200586913804593,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "波多黎各"
+    ],
+    "evidence": "2026年05月波多黎各离店TTV=0.1M，占全年9.2%（排名第3）"
+  },
+  {
+    "analysis_unit": "阿联酋",
+    "continent": "中东",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 21453145.85,
+    "month_share": 0.36087448314182186,
+    "month_rank": 1,
+    "p75_days": 55.0,
+    "annual_p75": 33.5,
+    "countries": [
+      "阿拉伯联合酋长国"
+    ],
+    "evidence": "2026年02月阿联酋离店TTV=21.5M，占全年36.1%（排名第1）；目标月P75=55天"
+  },
+  {
+    "analysis_unit": "阿联酋",
+    "continent": "中东",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-01",
+    "month_ttv": 8497587.0,
+    "month_share": 0.14294231428896312,
+    "month_rank": 2,
+    "p75_days": 29.0,
+    "annual_p75": 33.5,
+    "countries": [
+      "阿拉伯联合酋长国"
+    ],
+    "evidence": "2026年01月阿联酋离店TTV=8.5M，占全年14.3%（排名第2）；目标月P75=29天"
+  },
+  {
+    "analysis_unit": "阿联酋",
+    "continent": "中东",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-12",
+    "month_ttv": 7880007.0,
+    "month_share": 0.1325536810853751,
+    "month_rank": 3,
+    "p75_days": 31.0,
+    "annual_p75": 33.5,
+    "countries": [
+      "阿拉伯联合酋长国"
+    ],
+    "evidence": "2025年12月阿联酋离店TTV=7.9M，占全年13.3%（排名第3）；目标月P75=31天"
+  },
+  {
+    "analysis_unit": "土耳其",
+    "continent": "中东",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 2580887.7,
+    "month_share": 0.16084570230204115,
+    "month_rank": 1,
+    "p75_days": 38.0,
+    "annual_p75": 25.6,
+    "countries": [
+      "土耳其"
+    ],
+    "evidence": "2025年10月土耳其离店TTV=2.6M，占全年16.1%（排名第1）；目标月P75=38天"
+  },
+  {
+    "analysis_unit": "土耳其",
+    "continent": "中东",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 1871713.0,
+    "month_share": 0.11664862132236917,
+    "month_rank": 2,
+    "p75_days": 21.0,
+    "annual_p75": 25.6,
+    "countries": [
+      "土耳其"
+    ],
+    "evidence": "2026年07月土耳其离店TTV=1.9M，占全年11.7%（排名第2）；目标月P75=21天"
+  },
+  {
+    "analysis_unit": "土耳其",
+    "continent": "中东",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-05",
+    "month_ttv": 1733141.96,
+    "month_share": 0.10801261742048524,
+    "month_rank": 3,
+    "p75_days": 35.0,
+    "annual_p75": 25.6,
+    "countries": [
+      "土耳其"
+    ],
+    "evidence": "2026年05月土耳其离店TTV=1.7M，占全年10.8%（排名第3）；目标月P75=35天"
+  },
+  {
+    "analysis_unit": "埃及",
+    "continent": "中东",
+    "unit_type": "country",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 2444874.02,
+    "month_share": 0.2587189873376625,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "埃及"
+    ],
+    "evidence": "2026年02月埃及离店TTV=2.4M，占全年25.9%（排名第1）"
+  },
+  {
+    "analysis_unit": "埃及",
+    "continent": "中东",
+    "unit_type": "country",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 1185753.0,
+    "month_share": 0.12547755544173,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "埃及"
+    ],
+    "evidence": "2025年10月埃及离店TTV=1.2M，占全年12.5%（排名第2）"
+  },
+  {
+    "analysis_unit": "埃及",
+    "continent": "中东",
+    "unit_type": "country",
+    "target_checkout_month": "2026-01",
+    "month_ttv": 1150114.0,
+    "month_share": 0.12170620120658339,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "埃及"
+    ],
+    "evidence": "2026年01月埃及离店TTV=1.2M，占全年12.2%（排名第3）"
+  },
+  {
+    "analysis_unit": "沙特阿拉伯",
+    "continent": "中东",
+    "unit_type": "country",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 1682212.0,
+    "month_share": 0.1982066089492165,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "沙特阿拉伯"
+    ],
+    "evidence": "2026年02月沙特阿拉伯离店TTV=1.7M，占全年19.8%（排名第1）"
+  },
+  {
+    "analysis_unit": "沙特阿拉伯",
+    "continent": "中东",
+    "unit_type": "country",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 1353974.38,
+    "month_share": 0.1595320152655657,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "沙特阿拉伯"
+    ],
+    "evidence": "2025年10月沙特阿拉伯离店TTV=1.4M，占全年16.0%（排名第2）"
+  },
+  {
+    "analysis_unit": "沙特阿拉伯",
+    "continent": "中东",
+    "unit_type": "country",
+    "target_checkout_month": "2025-12",
+    "month_ttv": 1090368.0,
+    "month_share": 0.12847259666839808,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "沙特阿拉伯"
+    ],
+    "evidence": "2025年12月沙特阿拉伯离店TTV=1.1M，占全年12.8%（排名第3）"
+  },
+  {
+    "analysis_unit": "摩洛哥",
+    "continent": "中东",
+    "unit_type": "country",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 611718.0,
+    "month_share": 0.14808392089352967,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "摩洛哥"
+    ],
+    "evidence": "2025年10月摩洛哥离店TTV=0.6M，占全年14.8%（排名第1）"
+  },
+  {
+    "analysis_unit": "摩洛哥",
+    "continent": "中东",
+    "unit_type": "country",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 551834.83,
+    "month_share": 0.1335874787271494,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "摩洛哥"
+    ],
+    "evidence": "2026年02月摩洛哥离店TTV=0.6M，占全年13.4%（排名第2）"
+  },
+  {
+    "analysis_unit": "摩洛哥",
+    "continent": "中东",
+    "unit_type": "country",
+    "target_checkout_month": "2026-05",
+    "month_ttv": 490138.0,
+    "month_share": 0.11865198803846355,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "摩洛哥"
+    ],
+    "evidence": "2026年05月摩洛哥离店TTV=0.5M，占全年11.9%（排名第3）"
+  },
+  {
+    "analysis_unit": "澳新",
+    "continent": "大洋洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 19432780.0,
+    "month_share": 0.23927872313279172,
+    "month_rank": 1,
+    "p75_days": 71.3,
+    "annual_p75": 48.5,
+    "countries": [
+      "新西兰",
+      "澳大利亚"
+    ],
+    "evidence": "2026年02月澳新离店TTV=19.4M，占全年23.9%（排名第1）；目标月P75=71天"
+  },
+  {
+    "analysis_unit": "澳新",
+    "continent": "大洋洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 8285960.59,
+    "month_share": 0.10202627055438458,
+    "month_rank": 2,
+    "p75_days": 42.8,
+    "annual_p75": 48.5,
+    "countries": [
+      "新西兰",
+      "澳大利亚"
+    ],
+    "evidence": "2026年07月澳新离店TTV=8.3M，占全年10.2%（排名第2）；目标月P75=43天"
+  },
+  {
+    "analysis_unit": "澳新",
+    "continent": "大洋洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 7010108.0,
+    "month_share": 0.08631650701870594,
+    "month_rank": 3,
+    "p75_days": 36.8,
+    "annual_p75": 48.5,
+    "countries": [
+      "新西兰",
+      "澳大利亚"
+    ],
+    "evidence": "2025年08月澳新离店TTV=7.0M，占全年8.6%（排名第3）；目标月P75=37天"
+  },
+  {
+    "analysis_unit": "斐济",
+    "continent": "大洋洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 970887.0,
+    "month_share": 0.17751362772211624,
+    "month_rank": 1,
+    "p75_days": 37.0,
+    "annual_p75": 39.7,
+    "countries": [
+      "斐济"
+    ],
+    "evidence": "2026年07月斐济离店TTV=1.0M，占全年17.8%（排名第1）；目标月P75=37天"
+  },
+  {
+    "analysis_unit": "斐济",
+    "continent": "大洋洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 718258.0,
+    "month_share": 0.13132381339994434,
+    "month_rank": 2,
+    "p75_days": 47.0,
+    "annual_p75": 39.7,
+    "countries": [
+      "斐济"
+    ],
+    "evidence": "2025年10月斐济离店TTV=0.7M，占全年13.1%（排名第2）；目标月P75=47天"
+  },
+  {
+    "analysis_unit": "斐济",
+    "continent": "大洋洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 599466.0,
+    "month_share": 0.10960429417230443,
+    "month_rank": 3,
+    "p75_days": 36.0,
+    "annual_p75": 39.7,
+    "countries": [
+      "斐济"
+    ],
+    "evidence": "2025年08月斐济离店TTV=0.6M，占全年11.0%（排名第3）；目标月P75=36天"
+  },
+  {
+    "analysis_unit": "法属波利尼西亚",
+    "continent": "大洋洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-06",
+    "month_ttv": 114846.0,
+    "month_share": 0.21204948301329393,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "法属波利尼西亚"
+    ],
+    "evidence": "2026年06月法属波利尼西亚离店TTV=0.1M，占全年21.2%（排名第1）"
+  },
+  {
+    "analysis_unit": "法属波利尼西亚",
+    "continent": "大洋洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-12",
+    "month_ttv": 104974.0,
+    "month_share": 0.19382200886262924,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "法属波利尼西亚"
+    ],
+    "evidence": "2025年12月法属波利尼西亚离店TTV=0.1M，占全年19.4%（排名第2）"
+  },
+  {
+    "analysis_unit": "法属波利尼西亚",
+    "continent": "大洋洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 87247.0,
+    "month_share": 0.16109121122599704,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "法属波利尼西亚"
+    ],
+    "evidence": "2026年03月法属波利尼西亚离店TTV=0.1M，占全年16.1%（排名第3）"
+  },
+  {
+    "analysis_unit": "瓦努阿图",
+    "continent": "大洋洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 47399.0,
+    "month_share": 0.178020401418184,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "瓦努阿图"
+    ],
+    "evidence": "2026年03月瓦努阿图离店TTV=0.0M，占全年17.8%（排名第1）"
+  },
+  {
+    "analysis_unit": "瓦努阿图",
+    "continent": "大洋洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 41904.0,
+    "month_share": 0.15738236884802595,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "瓦努阿图"
+    ],
+    "evidence": "2025年08月瓦努阿图离店TTV=0.0M，占全年15.7%（排名第2）"
+  },
+  {
+    "analysis_unit": "瓦努阿图",
+    "continent": "大洋洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-05",
+    "month_ttv": 33923.0,
+    "month_share": 0.12740745748452617,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "瓦努阿图"
+    ],
+    "evidence": "2026年05月瓦努阿图离店TTV=0.0M，占全年12.7%（排名第3）"
+  },
+  {
+    "analysis_unit": "关岛",
+    "continent": "大洋洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 55039.0,
+    "month_share": 0.2995450142047001,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "关岛"
+    ],
+    "evidence": "2026年02月关岛离店TTV=0.1M，占全年30.0%（排名第1）"
+  },
+  {
+    "analysis_unit": "关岛",
+    "continent": "大洋洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-06",
+    "month_ttv": 23871.0,
+    "month_share": 0.12991586028235244,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "关岛"
+    ],
+    "evidence": "2026年06月关岛离店TTV=0.0M，占全年13.0%（排名第2）"
+  },
+  {
+    "analysis_unit": "关岛",
+    "continent": "大洋洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 22953.0,
+    "month_share": 0.12491972439616418,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "关岛"
+    ],
+    "evidence": "2026年07月关岛离店TTV=0.0M，占全年12.5%（排名第3）"
+  },
+  {
+    "analysis_unit": "巴西",
+    "continent": "南美洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2026-06",
+    "month_ttv": 1655213.62,
+    "month_share": 0.11479771195006495,
+    "month_rank": 1,
+    "p75_days": 20.0,
+    "annual_p75": 39.1,
+    "countries": [
+      "巴西"
+    ],
+    "evidence": "2026年06月巴西离店TTV=1.7M，占全年11.5%（排名第1）；目标月P75=20天"
+  },
+  {
+    "analysis_unit": "巴西",
+    "continent": "南美洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-11",
+    "month_ttv": 1450383.0,
+    "month_share": 0.1005916383477264,
+    "month_rank": 2,
+    "p75_days": 35.0,
+    "annual_p75": 39.1,
+    "countries": [
+      "巴西"
+    ],
+    "evidence": "2025年11月巴西离店TTV=1.5M，占全年10.1%（排名第2）；目标月P75=35天"
+  },
+  {
+    "analysis_unit": "巴西",
+    "continent": "南美洲",
+    "unit_type": "l2_group",
+    "target_checkout_month": "2025-12",
+    "month_ttv": 1446408.0,
+    "month_share": 0.10031595133096448,
+    "month_rank": 3,
+    "p75_days": 55.0,
+    "annual_p75": 39.1,
+    "countries": [
+      "巴西"
+    ],
+    "evidence": "2025年12月巴西离店TTV=1.4M，占全年10.0%（排名第3）；目标月P75=55天"
+  },
+  {
+    "analysis_unit": "阿根廷",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-12",
+    "month_ttv": 442228.0,
+    "month_share": 0.13126266090975944,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "阿根廷"
+    ],
+    "evidence": "2025年12月阿根廷离店TTV=0.4M，占全年13.1%（排名第1）"
+  },
+  {
+    "analysis_unit": "阿根廷",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-01",
+    "month_ttv": 392453.0,
+    "month_share": 0.11648838396035037,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "阿根廷"
+    ],
+    "evidence": "2026年01月阿根廷离店TTV=0.4M，占全年11.6%（排名第2）"
+  },
+  {
+    "analysis_unit": "阿根廷",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 389882.0,
+    "month_share": 0.11572525656633871,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "阿根廷"
+    ],
+    "evidence": "2026年03月阿根廷离店TTV=0.4M，占全年11.6%（排名第3）"
+  },
+  {
+    "analysis_unit": "智利",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 510044.0,
+    "month_share": 0.16615954370661493,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "智利"
+    ],
+    "evidence": "2026年03月智利离店TTV=0.5M，占全年16.6%（排名第1）"
+  },
+  {
+    "analysis_unit": "智利",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-12",
+    "month_ttv": 401986.0,
+    "month_share": 0.1309569573143637,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "智利"
+    ],
+    "evidence": "2025年12月智利离店TTV=0.4M，占全年13.1%（排名第2）"
+  },
+  {
+    "analysis_unit": "智利",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-01",
+    "month_ttv": 368294.0,
+    "month_share": 0.11998094868263137,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "智利"
+    ],
+    "evidence": "2026年01月智利离店TTV=0.4M，占全年12.0%（排名第3）"
+  },
+  {
+    "analysis_unit": "秘鲁",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-09",
+    "month_ttv": 208168.0,
+    "month_share": 0.13702286751761117,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "秘鲁"
+    ],
+    "evidence": "2025年09月秘鲁离店TTV=0.2M，占全年13.7%（排名第1）"
+  },
+  {
+    "analysis_unit": "秘鲁",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-12",
+    "month_ttv": 197223.0,
+    "month_share": 0.12981851677695816,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "秘鲁"
+    ],
+    "evidence": "2025年12月秘鲁离店TTV=0.2M，占全年13.0%（排名第2）"
+  },
+  {
+    "analysis_unit": "秘鲁",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 155153.0,
+    "month_share": 0.10212669076880176,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "秘鲁"
+    ],
+    "evidence": "2026年03月秘鲁离店TTV=0.2M，占全年10.2%（排名第3）"
+  },
+  {
+    "analysis_unit": "哥伦比亚",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 102522.0,
+    "month_share": 0.14656615577282403,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "哥伦比亚"
+    ],
+    "evidence": "2025年10月哥伦比亚离店TTV=0.1M，占全年14.7%（排名第1）"
+  },
+  {
+    "analysis_unit": "哥伦比亚",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 92779.0,
+    "month_share": 0.13263749601497085,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "哥伦比亚"
+    ],
+    "evidence": "2026年03月哥伦比亚离店TTV=0.1M，占全年13.3%（排名第2）"
+  },
+  {
+    "analysis_unit": "哥伦比亚",
+    "continent": "南美洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-11",
+    "month_ttv": 92486.0,
+    "month_share": 0.13221862120135583,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "哥伦比亚"
+    ],
+    "evidence": "2025年11月哥伦比亚离店TTV=0.1M，占全年13.2%（排名第3）"
+  },
+  {
+    "analysis_unit": "南非",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-11",
+    "month_ttv": 295198.0,
+    "month_share": 0.12217719666785926,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "南非"
+    ],
+    "evidence": "2025年11月南非离店TTV=0.3M，占全年12.2%（排名第1）"
+  },
+  {
+    "analysis_unit": "南非",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 284828.72,
+    "month_share": 0.11788553628444168,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "南非"
+    ],
+    "evidence": "2026年03月南非离店TTV=0.3M，占全年11.8%（排名第2）"
+  },
+  {
+    "analysis_unit": "南非",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-05",
+    "month_ttv": 273381.0,
+    "month_share": 0.11314752878493768,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "南非"
+    ],
+    "evidence": "2026年05月南非离店TTV=0.3M，占全年11.3%（排名第3）"
+  },
+  {
+    "analysis_unit": "坦桑尼亚",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-09",
+    "month_ttv": 140719.0,
+    "month_share": 0.16417003245624473,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "坦桑尼亚"
+    ],
+    "evidence": "2025年09月坦桑尼亚离店TTV=0.1M，占全年16.4%（排名第1）"
+  },
+  {
+    "analysis_unit": "坦桑尼亚",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-03",
+    "month_ttv": 134967.0,
+    "month_share": 0.15745945302711065,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "坦桑尼亚"
+    ],
+    "evidence": "2026年03月坦桑尼亚离店TTV=0.1M，占全年15.7%（排名第2）"
+  },
+  {
+    "analysis_unit": "坦桑尼亚",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 127586.0,
+    "month_share": 0.1488483983041554,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "坦桑尼亚"
+    ],
+    "evidence": "2025年10月坦桑尼亚离店TTV=0.1M，占全年14.9%（排名第3）"
+  },
+  {
+    "analysis_unit": "毛里求斯",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 137537.0,
+    "month_share": 0.1772139666308898,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "毛里求斯"
+    ],
+    "evidence": "2026年07月毛里求斯离店TTV=0.1M，占全年17.7%（排名第1）"
+  },
+  {
+    "analysis_unit": "毛里求斯",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 105985.0,
+    "month_share": 0.13655977848415232,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "毛里求斯"
+    ],
+    "evidence": "2025年08月毛里求斯离店TTV=0.1M，占全年13.7%（排名第2）"
+  },
+  {
+    "analysis_unit": "毛里求斯",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-02",
+    "month_ttv": 85001.0,
+    "month_share": 0.10952226948088344,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "毛里求斯"
+    ],
+    "evidence": "2026年02月毛里求斯离店TTV=0.1M，占全年11.0%（排名第3）"
+  },
+  {
+    "analysis_unit": "肯尼亚",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-08",
+    "month_ttv": 154794.0,
+    "month_share": 0.21613075982177846,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "肯尼亚"
+    ],
+    "evidence": "2025年08月肯尼亚离店TTV=0.2M，占全年21.6%（排名第1）"
+  },
+  {
+    "analysis_unit": "肯尼亚",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 145726.0,
+    "month_share": 0.20346958606786109,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "肯尼亚"
+    ],
+    "evidence": "2026年07月肯尼亚离店TTV=0.1M，占全年20.3%（排名第2）"
+  },
+  {
+    "analysis_unit": "肯尼亚",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-06",
+    "month_ttv": 69105.0,
+    "month_share": 0.09648769433882451,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "肯尼亚"
+    ],
+    "evidence": "2026年06月肯尼亚离店TTV=0.1M，占全年9.6%（排名第3）"
+  },
+  {
+    "analysis_unit": "塞舌尔",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2026-07",
+    "month_ttv": 192095.0,
+    "month_share": 0.40884063739084353,
+    "month_rank": 1,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "塞舌尔"
+    ],
+    "evidence": "2026年07月塞舌尔离店TTV=0.2M，占全年40.9%（排名第1）"
+  },
+  {
+    "analysis_unit": "塞舌尔",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-10",
+    "month_ttv": 122967.0,
+    "month_share": 0.26171377005148416,
+    "month_rank": 2,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "塞舌尔"
+    ],
+    "evidence": "2025年10月塞舌尔离店TTV=0.1M，占全年26.2%（排名第2）"
+  },
+  {
+    "analysis_unit": "塞舌尔",
+    "continent": "非洲",
+    "unit_type": "country",
+    "target_checkout_month": "2025-11",
+    "month_ttv": 57584.0,
+    "month_share": 0.12255748074397738,
+    "month_rank": 3,
+    "p75_days": null,
+    "annual_p75": null,
+    "countries": [
+      "塞舌尔"
+    ],
+    "evidence": "2025年11月塞舌尔离店TTV=0.1M，占全年12.3%（排名第3）"
+  }
+]

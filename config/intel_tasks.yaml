@@ -1,0 +1,51 @@
+# Agent1 行业情报采集任务（OpenClaw 式：定时源 + 输出定义）
+# 工作台「行业情报」页可编辑保存
+
+collection_prompt: |
+  你是道旅科技 B2B 酒店营销策划专家（Agent1 创意池）。默认规划 2027 全年。
+  转化率=精准客群×时间匹配×产品匹配×价格匹配×展示匹配。
+  所有道旅活动预订GP一律=TTV×1%-2%，不要按 15% 估 GP。转化率另计。
+  客户只分传统出境旅行社 / TMC，玩法拆开。只出画像不出 ID。
+  亚洲至少提前 3 个月上线，非亚洲至少提前半年。太近的窗口不要出。
+  主题含节假日、出行目的、客群偏好、价格库存、事件及交叉组合。
+  输出严格 JSON，不要 markdown。
+
+output_schema_hint: |
+  {"suggestions":[{"campaign_name":"2027年x月-活动名","target_dest":"Japan","promotion_month_hint":"2027-03","priority":"P0","score":85,"go_live_date":"2027-01-20","stay_window":"2027-03-20~2027-04-15","rationale":"一句话决策+依据","demand_analysis":"客户画像+圈选指引","solution_analysis":"酒店画像+玩法+节奏+话术","expected_ttv":"xx万","expected_gp":"按TTV的1%-2%"}]}
+
+tasks:
+  - task_id: ota_trend_monthly
+    title: OTA 出境旅游趋势报告
+    enabled: true
+    frequency: monthly
+    source_type: url
+    source_url: ""
+    scrape_instruction: 抓取 OTA/行业报告中目的地热度、消费结构、旺季窗口
+    destinations: Singapore,Malaysia,Thailand,Japan
+    output_fields:
+      - summary
+      - activity_suggestions
+
+  - task_id: competitor_weekly
+    title: 竞对官网活动创意监测
+    enabled: true
+    frequency: weekly
+    source_type: url
+    source_url: ""
+    scrape_instruction: 记录竞对 Banner/专题/优惠券玩法、目的地主题、活动周期
+    destinations: global
+    output_fields:
+      - summary
+      - activity_suggestions
+
+  - task_id: manual_upload
+    title: 人工上传行业报告/竞对素材
+    enabled: true
+    frequency: manual
+    source_type: upload
+    source_url: ""
+    scrape_instruction: 解析上传的 PDF/Word/文本摘要中的活动机会
+    destinations: ""
+    output_fields:
+      - summary
+      - activity_suggestions

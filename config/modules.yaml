@@ -1,0 +1,294 @@
+# 系统功能模块注册表（骨架版）
+# 状态: skeleton=入口已留 | placeholder=待业务填内容 | ready=可跑通
+# 细节 I/O/判断机制待 Jim 等提供后再实现
+
+version: "2.0-design-v2"
+sop_source: "业务文字 Phase1 · 飞书2027营销日历初版"
+design_doc: "docs/SYSTEM_DESIGN_v2.md"
+
+phases:
+  - id: phase1
+    name: 营销活动策划和评审
+    agent: agent1
+    agent_label: 活动生成Agent
+    steps: [1.1, 1.2, 1.3]
+
+  - id: phase2
+    name: 建档和任务创建
+    agent: agent2
+    agent_label: 方案策划Agent
+    steps: [2.1, 2.2]
+
+  - id: phase3
+    name: 活动任务进展管理
+    agent: agent3
+    agent_label: 任务监督Agent
+    steps: [3.1, 3.2, 3.3, 3.4]
+
+  - id: phase4
+    name: 活动预上线审核
+    agent: agent4
+    agent_label: 上线审核Agent
+    steps: [4.1, 4.2]
+
+  - id: phase5
+    name: 上线监控与效果推送
+    agent: agent5
+    agent_label: 监控优化Agent
+    steps: [5.1, 5.2, 5.3, 5.4]
+
+  - id: phase6
+    name: 档案库管理
+    agent: agent6
+    agent_label: 复盘归档Agent
+    steps: [6.1, 6.2]
+
+modules:
+  # ── 阶段 1 ──
+  - id: standard_activity_fields
+    phase: phase1
+    name: 标准活动字段定义
+    entry: /system-config?tab=agent1
+    status: skeleton
+    owner: Jim
+    prompt_key: null
+    note: Schema 双模板入口；字段细则待 Jim
+
+  - id: creative_activity_fields
+    phase: phase1
+    name: 创意活动字段定义
+    entry: /system-config?tab=agent1
+    status: skeleton
+    owner: Jim
+    prompt_key: null
+
+  - id: ai_creative_prompt
+    phase: phase1
+    name: AI 创意活动提示词
+    entry: /system-config?tab=agent1&key=ai_creative
+    status: placeholder
+    owner: 永如
+    prompt_key: ai_creative
+    note: 入口已留，内容待永如填入
+
+  - id: manual_calendar_skill
+    phase: phase1
+    name: 人工标准活动 · MCP取数 + Skill分析
+    entry: /system-config?tab=agent1
+    status: ready
+    owner: Jim
+    prompt_key: manual_calendar_ai
+    note: Tab① MCP取数 + AI分析输出 Prompt → 运行生成 → 评审池
+
+  - id: manual_calendar_upload
+    phase: phase1
+    name: 人工上传标准活动初版日历
+    entry: /system-config?tab=agent1
+    status: ready
+    owner: Jim
+    prompt_key: null
+    note: Tab④ Excel A–M 列 → 解析 → 初版评审池
+
+  - id: ai_intel_upload
+    phase: phase1
+    name: AI创意 · 上传资讯
+    entry: /system-config?tab=agent1
+    status: ready
+    owner: 永如
+    prompt_key: ai_creative
+    note: Tab③ 上传 OTA/竞对报告 → LLM 生成创意 → 评审池
+
+  - id: ai_creative_generate
+    phase: phase1
+    name: AI 创意活动生成（一键生成）
+    entry: /agent1
+    status: skeleton
+    owner: 永如
+    prompt_key: ai_creative
+    note: 提示词+模型+格式 · 点击「开始 AI 创意活动生成」
+
+  - id: review_pool
+    phase: phase1
+    name: 初版评审池（人工版 + AI 版 · 采纳/拒绝）
+    entry: /agent1
+    status: skeleton
+    owner: Jim
+    prompt_key: null
+
+  - id: calendar_finalize
+    phase: phase1
+    name: 终版营销日历
+    entry: /calendar-upload
+    status: skeleton
+    owner: Jim
+
+  - id: temp_activity_intake
+    phase: phase1
+    name: 新增临时活动
+    entry: /agent2
+    status: skeleton
+    owner: Jim
+    note: 字段格式是否与人工规划一致 · 待 Jim 确认
+
+  # ── 阶段 2 ──
+  - id: activity_archive
+    phase: phase2
+    name: 活动建档（标准/创意/临时）
+    entry: /agent2
+    status: skeleton
+    owner: Jim
+
+  - id: archive_template
+    phase: phase2
+    name: 档案模板与字段补全
+    entry: /agent2
+    status: placeholder
+    owner: Jim
+    prompt_key: archive_field_spec
+
+  - id: marketing_kanban
+    phase: phase2
+    name: 全年营销日历看板
+    entry: /agent2
+    status: skeleton
+    owner: Jim
+    note: 手机日历式 · 30/60/90 天甘特 · 待 UI 细化
+
+  # ── 阶段 3 ──
+  - id: task_config
+    phase: phase3
+    name: 任务配置（资源/素材/营销）
+    entry: /agent3?tab=config
+    status: placeholder
+    owner: Jim
+    prompt_key: task_templates
+    note: 任务名/T 节点/催办次数 · 待 Jim+Rachel
+
+  - id: task_execution
+    phase: phase3
+    name: 任务执行与接受
+    entry: /agent3
+    status: skeleton
+    owner: null
+
+  - id: task_reminder
+    phase: phase3
+    name: 任务催办
+    entry: /mcp-config
+    status: skeleton
+    owner: Jim
+    note: 创建不通知 · 人配发送时间 · 规则待 Jim
+
+  - id: task_acceptance
+    phase: phase3
+    name: 任务验收
+    entry: /agent3
+    status: skeleton
+    owner: Jim
+
+  # ── 阶段 4 ──
+  - id: launch_remind_t1
+    phase: phase4
+    name: T-1 提醒审核
+    entry: /agent4
+    status: skeleton
+    owner: null
+
+  - id: launch_checklist
+    phase: phase4
+    name: 预上线审核 Checklist
+    entry: /agent4?tab=config
+    status: placeholder
+    owner: Jim
+    prompt_key: launch_checklist
+
+  - id: risk_grading
+    phase: phase4
+    name: 风险分级（低/中/高）
+    entry: /agent4
+    status: skeleton
+    owner: Jim
+
+  # ── 阶段 5 ──
+  - id: activity_go_live
+    phase: phase5
+    name: 活动上线
+    entry: /agent5
+    status: skeleton
+    owner: null
+
+  - id: monitor_dashboard
+    phase: phase5
+    name: 数据看板
+    entry: /agent5
+    status: placeholder
+    owner: 曼薇
+    prompt_key: monitor_fields
+
+  - id: monitor_summary_t1
+    phase: phase5
+    name: T+1 监控总结推送
+    entry: /agent5
+    status: skeleton
+    owner: null
+
+  - id: offline_review
+    phase: phase5
+    name: 下线活动复盘
+    entry: /agent6
+    status: placeholder
+    owner: Jim
+    prompt_key: review_template
+
+  # ── 阶段 6 ──
+  - id: knowledge_deposit
+    phase: phase6
+    name: 沉淀知识库
+    entry: /agent6
+    status: skeleton
+    owner: null
+
+  - id: knowledge_qa
+    phase: phase6
+    name: Agent 知识库问答
+    entry: /agent6
+    status: skeleton
+    owner: null
+
+  # ── 系统管理 ──
+  - id: system_admin
+    phase: system
+    name: 系统通用配置
+    entry: /system-config
+    status: ready
+    owner: null
+
+  - id: system_logs
+    phase: system
+    name: 运行日志
+    entry: /system-config?tab=logs
+    status: skeleton
+    owner: null
+
+  - id: integration_config
+    phase: system
+    name: 连接配置（MCP/飞书/LLM）
+    entry: /system-config?tab=infra
+    status: ready
+    owner: null
+
+  - id: user_feedback
+    phase: system
+    name: 问题工单（使用者反馈 → 后台查因修复）
+    entry: /system-config?tab=tickets
+    status: ready
+    owner: null
+    note: 使用者顶部「反馈问题」提交 · 后台关联运行日志
+
+  - id: manual_plan_sop
+    phase: phase1
+    name: 人工规划全年日历 SOP
+    entry: /system-config?tab=agent1&key=manual_plan_sop
+    status: placeholder
+    owner: Jim
+    prompt_key: manual_plan_sop
